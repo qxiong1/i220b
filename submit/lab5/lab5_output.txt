@@ -1,0 +1,16 @@
+lab5 ex2 output:
+ff938110
+ff938118
+ff938114
+ff93811c
+ff93810c
+ff938118
+
+
+lab5 ex6 output:
+ffbd9d8c
+ffbd9d9e
+ffbd9d94
+ffbd9d9c
+ffbd9d9f
+ffbd9d88
