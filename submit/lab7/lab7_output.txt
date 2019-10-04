@@ -1,0 +1,21 @@
+Ex3 Answer: 
+
+int type is 4 bytes, double type is 8 bytes. since we have double x and int y, the memory location of y is overlaped or included within the memory location of x. So change of y also changes x.
+
+
+Ex6 Answer:
+
+
+For testvec-static:
+
+Address of main(): 0x401bf6
+Address of addvec(): 0x401f1f
+Address of multvec(): 0x401f8e
+
+
+
+For testvec-dynamic:
+
+Address of main(): 0x5555555551ee
+Address of addvec(): 0x555555555060
+Address of multvec(): 0x555555555050
