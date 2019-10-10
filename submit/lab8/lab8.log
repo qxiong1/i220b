@@ -1,0 +1,1073 @@
+Script started on 2019-10-10 15:00:11-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+qxiong1@remote00:~/i220b/work/lab8$ ~/git=re[[K[K[K[K-repos
+bash: /home/qxiong1/git-repos: Is a directory
+qxiong1@remote00:~/i220b/work/lab8$ cd ~/git-repos
+qxiong1@remote00:~/git-repos$ mkdir lab8.git
+qxiong1@remote00:~/git-repos$ ls
+cs220  i220b  i220b.bak  lab8.git
+qxiong1@remote00:~/git-repos$ cd lab8.git
+qxiong1@remote00:~/git-repos/lab8.git$ git init --bare
+Initialized empty Git repository in /import/linux/home1/qxiong1/git-repos/lab8.git/
+qxiong1@remote00:~/git-repos/lab8.git$ mkdir -p ~/tmp
+qxiong1@remote00:~/git-repos/lab8.git$ cd ~/temp
+qxiong1@remote00:~/temp$ cd ..
+qxiong1@remote00:~$ cd ~.[K/tmp
+qxiong1@remote00:~/tmp$ git clone \ ssj[Kh:??[K[K//qxiong1@remote.cs.binghamton.edu/home/ LOGIN/git-repos/lab8.git
+Cloning into 'lab8'...
+fatal: protocol ' ssh' is not supported
+qxiong1@remote00:~/tmp$ git clone \ ssh://qxiong1@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh://qxiong1@remote.cs.binghamton.edu/home/LO[1PGIN/git-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C
+
+Cloning into 'lab8'...
+qxiong1@remote.cs.binghamton.edu's password: 
+fatal: '/home/LOGIN/git-repos/lab8.git' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+qxiong1@remote00:~/tmp$ git clone \ssh://qxiong1@remote.cs.binghamton.edu/home/LOGIN/git-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[1P/git-repos/lab8.git[C[C[C[1P/git-repos/lab8.git[C[C[1P/git-repos/lab8.git[C[1P/git-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/g[1Pit-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgi[1Pt-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/git-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cq/git-repos/lab8.gitx/git-repos/lab8.git[Ci/git-repos/lab8.git[C[Co/git-repos/lab8.git[C[C[Cn/git-repos/lab8.git[C[C[C[Cg/git-repos/lab8.git[C[C[C[C[C1/git-repos/lab8.git[C[C[C[C[C[C
+Cloning into 'lab8'...
+qxiong1@remote.cs.binghamton.edu's password: 
+warning: You appear to have cloned an empty repository.
+qxiong1@remote00:~/tmp$ cd lab7[K8
+qxiong1@remote00:~/tmp/lab8$ git remote -v
+origin	ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git (fetch)
+origin	ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git (push)
+qxiong1@remote00:~/tmp/lab8$ ls -a
+.  ..  .git
+qxiong1@remote00:~/tmp/lab8$ mkdir -p work'l[K[Kk/[K[K/lab8
+qxiong1@remote00:~/tmp/lab8$ cd work/lab8
+qxiong1@remote00:~/tmp/lab8/work/lab8$ co[Kp ~/cs220/labs/a[Klab8/files/README.md .
+cp: cannot stat '/home/qxiong1/cs220/labs/lab8/files/README.md': No such file or directory
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220/labs/lab8/files/README.md .[K[K
+cp: missing destination file operand after '/home/qxiong1/cs220/labs/lab8/files/README.md'
+Try 'cp --help' for more information.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220/labs/lab8/files/README.md .
+cp: cannot stat '/home/qxiong1/cs220/labs/lab8/files/README.md': No such file or directory
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ls
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cd ~
+qxiong1@remote00:~$ ls
+ cs220	   Documents   git-repos   Music	 Pictures   temp        tmp
+ Desktop   Downloads   i220b	  'Past files'	 Public     Templates   Videos
+qxiong1@remote00:~$ cd w[K[K tmp
+qxiong1@remote00:~/tmp$ ls
+lab8
+qxiong1@remote00:~/tmp$ cd lab8
+qxiong1@remote00:~/tmp/lab8$ ls
+work
+qxiong1@remote00:~/tmp/lab8$ cd work
+qxiong1@remote00:~/tmp/lab8/work$ ls
+lab8
+qxiong1@remote00:~/tmp/lab8/work$ cd lab8
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ls
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cd ..
+qxiong1@remote00:~/tmp/lab8/work$ cd ~/i220b/work/lab8
+qxiong1@remote00:~/i220b/work/lab8$ ls
+lab8.log
+qxiong1@remote00:~/i220b/work/lab8$ g[Kgit [K[K[K[Kcd ..
+qxiong1@remote00:~/i220b/work$ ls
+lab8  prj2-sol
+qxiong1@remote00:~/i220b/work$ cd ..
+qxiong1@remote00:~/i220b$ ls
+README.md  submit  work
+qxiong1@remote00:~/i220b$ c[Kcd ..
+qxiong1@remote00:~$ cd cs220b
+bash: cd: cs220b: No such file or directory
+qxiong1@remote00:~$ cd cs220
+qxiong1@remote00:~/cs220$ ls
+announce.html  bin	      exercises   index.umt  misc	slides
+announce.umt   docs	      hws	  labs	     projects
+assets	       exams-quizzes  index.html  Makefile   README.md
+qxiong1@remote00:~/cs220$ cd labs
+qxiong1@remote00:~/cs220/labs$ ls
+index.html  lab1  lab3	lab5  lab7	Makefile
+index.umt   lab2  lab4	lab6  lab-tips
+qxiong1@remote00:~/cs220/labs$ git pull
+qxiong1@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+qxiong1@remote.cs.binghamton.edu's password: 
+remote: Enumerating objects: 282, done.[K
+remote: Counting objects:   0% (1/253)   [Kremote: Counting objects:   1% (3/253)   [Kremote: Counting objects:   2% (6/253)   [Kremote: Counting objects:   3% (8/253)   [Kremote: Counting objects:   4% (11/253)   [Kremote: Counting objects:   5% (13/253)   [Kremote: Counting objects:   6% (16/253)   [Kremote: Counting objects:   7% (18/253)   [Kremote: Counting objects:   8% (21/253)   [Kremote: Counting objects:   9% (23/253)   [Kremote: Counting objects:  10% (26/253)   [Kremote: Counting objects:  11% (28/253)   [Kremote: Counting objects:  12% (31/253)   [Kremote: Counting objects:  13% (33/253)   [Kremote: Counting objects:  14% (36/253)   [Kremote: Counting objects:  15% (38/253)   [Kremote: Counting objects:  16% (41/253)   [Kremote: Counting objects:  17% (44/253)   [Kremote: Counting objects:  18% (46/253)   [Kremote: Counting objects:  19% (49/253)   [Kremote: Counting objects:  20% (51/253)   [Kremote: Counting objects:  21% (54/253)   [Kremote: Counting objects:  22% (56/253)   [Kremote: Counting objects:  23% (59/253)   [Kremote: Counting objects:  24% (61/253)   [Kremote: Counting objects:  25% (64/253)   [Kremote: Counting objects:  26% (66/253)   [Kremote: Counting objects:  27% (69/253)   [Kremote: Counting objects:  28% (71/253)   [Kremote: Counting objects:  29% (74/253)   [Kremote: Counting objects:  30% (76/253)   [Kremote: Counting objects:  31% (79/253)   [Kremote: Counting objects:  32% (81/253)   [Kremote: Counting objects:  33% (84/253)   [Kremote: Counting objects:  34% (87/253)   [Kremote: Counting objects:  35% (89/253)   [Kremote: Counting objects:  36% (92/253)   [Kremote: Counting objects:  37% (94/253)   [Kremote: Counting objects:  38% (97/253)   [Kremote: Counting objects:  39% (99/253)   [Kremote: Counting objects:  40% (102/253)   [Kremote: Counting objects:  41% (104/253)   [Kremote: Counting objects:  42% (107/253)   [Kremote: Counting objects:  43% (109/253)   [Kremote: Counting objects:  44% (112/253)   [Kremote: Counting objects:  45% (114/253)   [Kremote: Counting objects:  46% (117/253)   [Kremote: Counting objects:  47% (119/253)   [Kremote: Counting objects:  48% (122/253)   [Kremote: Counting objects:  49% (124/253)   [Kremote: Counting objects:  50% (127/253)   [Kremote: Counting objects:  51% (130/253)   [Kremote: Counting objects:  52% (132/253)   [Kremote: Counting objects:  53% (135/253)   [Kremote: Counting objects:  54% (137/253)   [Kremote: Counting objects:  55% (140/253)   [Kremote: Counting objects:  56% (142/253)   [Kremote: Counting objects:  57% (145/253)   [Kremote: Counting objects:  58% (147/253)   [Kremote: Counting objects:  59% (150/253)   [Kremote: Counting objects:  60% (152/253)   [Kremote: Counting objects:  61% (155/253)   [Kremote: Counting objects:  62% (157/253)   [Kremote: Counting objects:  63% (160/253)   [Kremote: Counting objects:  64% (162/253)   [Kremote: Counting objects:  65% (165/253)   [Kremote: Counting objects:  66% (167/253)   [Kremote: Counting objects:  67% (170/253)   [Kremote: Counting objects:  68% (173/253)   [Kremote: Counting objects:  69% (175/253)   [Kremote: Counting objects:  70% (178/253)   [Kremote: Counting objects:  71% (180/253)   [Kremote: Counting objects:  72% (183/253)   [Kremote: Counting objects:  73% (185/253)   [Kremote: Counting objects:  74% (188/253)   [Kremote: Counting objects:  75% (190/253)   [Kremote: Counting objects:  76% (193/253)   [Kremote: Counting objects:  77% (195/253)   [Kremote: Counting objects:  78% (198/253)   [Kremote: Counting objects:  79% (200/253)   [Kremote: Counting objects:  80% (203/253)   [Kremote: Counting objects:  81% (205/253)   [Kremote: Counting objects:  82% (208/253)   [Kremote: Counting objects:  83% (210/253)   [Kremote: Counting objects:  84% (213/253)   [Kremote: Counting objects:  85% (216/253)   [Kremote: Counting objects:  86% (218/253)   [Kremote: Counting objects:  87% (221/253)   [Kremote: Counting objects:  88% (223/253)   [Kremote: Counting objects:  89% (226/253)   [Kremote: Counting objects:  90% (228/253)   [Kremote: Counting objects:  91% (231/253)   [Kremote: Counting objects:  92% (233/253)   [Kremote: Counting objects:  93% (236/253)   [Kremote: Counting objects:  94% (238/253)   [Kremote: Counting objects:  95% (241/253)   [Kremote: Counting objects:  96% (243/253)   [Kremote: Counting objects:  97% (246/253)   [Kremote: Counting objects:  98% (248/253)   [Kremote: Counting objects:  99% (251/253)   [Kremote: Counting objects: 100% (253/253)   [Kremote: Counting objects: 100% (253/253), done.[K
+remote: Compressing objects:   0% (1/197)   [Kremote: Compressing objects:   1% (2/197)   [Kremote: Compressing objects:   2% (4/197)   [Kremote: Compressing objects:   3% (6/197)   [Kremote: Compressing objects:   4% (8/197)   [Kremote: Compressing objects:   5% (10/197)   [Kremote: Compressing objects:   6% (12/197)   [Kremote: Compressing objects:   7% (14/197)   [Kremote: Compressing objects:   8% (16/197)   [Kremote: Compressing objects:   9% (18/197)   [Kremote: Compressing objects:  10% (20/197)   [Kremote: Compressing objects:  11% (22/197)   [Kremote: Compressing objects:  12% (24/197)   [Kremote: Compressing objects:  13% (26/197)   [Kremote: Compressing objects:  14% (28/197)   [Kremote: Compressing objects:  15% (30/197)   [Kremote: Compressing objects:  16% (32/197)   [Kremote: Compressing objects:  17% (34/197)   [Kremote: Compressing objects:  18% (36/197)   [Kremote: Compressing objects:  19% (38/197)   [Kremote: Compressing objects:  20% (40/197)   [Kremote: Compressing objects:  21% (42/197)   [Kremote: Compressing objects:  22% (44/197)   [Kremote: Compressing objects:  23% (46/197)   [Kremote: Compressing objects:  24% (48/197)   [Kremote: Compressing objects:  25% (50/197)   [Kremote: Compressing objects:  26% (52/197)   [Kremote: Compressing objects:  27% (54/197)   [Kremote: Compressing objects:  28% (56/197)   [Kremote: Compressing objects:  29% (58/197)   [Kremote: Compressing objects:  30% (60/197)   [Kremote: Compressing objects:  31% (62/197)   [Kremote: Compressing objects:  32% (64/197)   [Kremote: Compressing objects:  33% (66/197)   [Kremote: Compressing objects:  34% (67/197)   [Kremote: Compressing objects:  35% (69/197)   [Kremote: Compressing objects:  36% (71/197)   [Kremote: Compressing objects:  37% (73/197)   [Kremote: Compressing objects:  38% (75/197)   [Kremote: Compressing objects:  39% (77/197)   [Kremote: Compressing objects:  40% (79/197)   [Kremote: Compressing objects:  41% (81/197)   [Kremote: Compressing objects:  42% (83/197)   [Kremote: Compressing objects:  43% (85/197)   [Kremote: Compressing objects:  44% (87/197)   [Kremote: Compressing objects:  45% (89/197)   [Kremote: Compressing objects:  46% (91/197)   [Kremote: Compressing objects:  47% (93/197)   [Kremote: Compressing objects:  48% (95/197)   [Kremote: Compressing objects:  49% (97/197)   [Kremote: Compressing objects:  50% (99/197)   [Kremote: Compressing objects:  51% (101/197)   [Kremote: Compressing objects:  52% (103/197)   [Kremote: Compressing objects:  53% (105/197)   [Kremote: Compressing objects:  54% (107/197)   [Kremote: Compressing objects:  55% (109/197)   [Kremote: Compressing objects:  56% (111/197)   [Kremote: Compressing objects:  57% (113/197)   [Kremote: Compressing objects:  58% (115/197)   [Kremote: Compressing objects:  59% (117/197)   [Kremote: Compressing objects:  60% (119/197)   [Kremote: Compressing objects:  61% (121/197)   [Kremote: Compressing objects:  62% (123/197)   [Kremote: Compressing objects:  63% (125/197)   [Kremote: Compressing objects:  64% (127/197)   [Kremote: Compressing objects:  65% (129/197)   [Kremote: Compressing objects:  66% (131/197)   [Kremote: Compressing objects:  67% (132/197)   [Kremote: Compressing objects:  68% (134/197)   [Kremote: Compressing objects:  69% (136/197)   [Kremote: Compressing objects:  70% (138/197)   [Kremote: Compressing objects:  71% (140/197)   [Kremote: Compressing objects:  72% (142/197)   [Kremote: Compressing objects:  73% (144/197)   [Kremote: Compressing objects:  74% (146/197)   [Kremote: Compressing objects:  75% (148/197)   [Kremote: Compressing objects:  76% (150/197)   [Kremote: Compressing objects:  77% (152/197)   [Kremote: Compressing objects:  78% (154/197)   [Kremote: Compressing objects:  79% (156/197)   [Kremote: Compressing objects:  80% (158/197)   [Kremote: Compressing objects:  81% (160/197)   [Kremote: Compressing objects:  82% (162/197)   [Kremote: Compressing objects:  83% (164/197)   [Kremote: Compressing objects:  84% (166/197)   [Kremote: Compressing objects:  85% (168/197)   [Kremote: Compressing objects:  86% (170/197)   [Kremote: Compressing objects:  87% (172/197)   [Kremote: Compressing objects:  88% (174/197)   [Kremote: Compressing objects:  89% (176/197)   [Kremote: Compressing objects:  90% (178/197)   [Kremote: Compressing objects:  91% (180/197)   [Kremote: Compressing objects:  92% (182/197)   [Kremote: Compressing objects:  93% (184/197)   [Kremote: Compressing objects:  94% (186/197)   [Kremote: Compressing objects:  95% (188/197)   [Kremote: Compressing objects:  96% (190/197)   [Kremote: Compressing objects:  97% (192/197)   [Kremote: Compressing objects:  98% (194/197)   [Kremote: Compressing objects:  99% (196/197)   [Kremote: Compressing objects: 100% (197/197)   [Kremote: Compressing objects: 100% (197/197), done.[K
+Receiving objects:   0% (1/201)   Receiving objects:   1% (3/201)   Receiving objects:   2% (5/201)   Receiving objects:   3% (7/201)   Receiving objects:   4% (9/201)   Receiving objects:   5% (11/201)   Receiving objects:   6% (13/201)   Receiving objects:   7% (15/201)   Receiving objects:   8% (17/201)   Receiving objects:   9% (19/201)   Receiving objects:  10% (21/201)   Receiving objects:  11% (23/201)   Receiving objects:  12% (25/201)   Receiving objects:  13% (27/201)   Receiving objects:  14% (29/201)   Receiving objects:  15% (31/201)   Receiving objects:  16% (33/201)   Receiving objects:  17% (35/201)   Receiving objects:  18% (37/201)   Receiving objects:  19% (39/201)   Receiving objects:  20% (41/201)   Receiving objects:  21% (43/201)   Receiving objects:  22% (45/201)   Receiving objects:  23% (47/201)   Receiving objects:  24% (49/201)   Receiving objects:  25% (51/201)   Receiving objects:  26% (53/201)   Receiving objects:  27% (55/201)   Receiving objects:  28% (57/201)   Receiving objects:  29% (59/201)   Receiving objects:  30% (61/201)   Receiving objects:  31% (63/201)   Receiving objects:  32% (65/201)   Receiving objects:  33% (67/201)   Receiving objects:  34% (69/201)   Receiving objects:  35% (71/201)   Receiving objects:  36% (73/201)   Receiving objects:  37% (75/201)   Receiving objects:  38% (77/201)   Receiving objects:  39% (79/201)   Receiving objects:  40% (81/201)   Receiving objects:  41% (83/201)   Receiving objects:  42% (85/201)   Receiving objects:  43% (87/201)   Receiving objects:  44% (89/201)   Receiving objects:  45% (91/201)   Receiving objects:  46% (93/201)   Receiving objects:  47% (95/201)   Receiving objects:  48% (97/201)   Receiving objects:  49% (99/201)   Receiving objects:  50% (101/201)   Receiving objects:  51% (103/201)   Receiving objects:  52% (105/201)   Receiving objects:  53% (107/201)   Receiving objects:  54% (109/201)   Receiving objects:  55% (111/201)   Receiving objects:  56% (113/201)   Receiving objects:  57% (115/201)   Receiving objects:  58% (117/201)   Receiving objects:  59% (119/201)   Receiving objects:  60% (121/201)   Receiving objects:  61% (123/201)   Receiving objects:  62% (125/201)   Receiving objects:  63% (127/201)   Receiving objects:  64% (129/201)   Receiving objects:  65% (131/201)   Receiving objects:  66% (133/201)   Receiving objects:  67% (135/201)   Receiving objects:  68% (137/201)   Receiving objects:  69% (139/201)   Receiving objects:  70% (141/201)   Receiving objects:  71% (143/201)   Receiving objects:  72% (145/201)   Receiving objects:  73% (147/201)   Receiving objects:  74% (149/201)   Receiving objects:  75% (151/201)   Receiving objects:  76% (153/201)   Receiving objects:  77% (155/201)   Receiving objects:  78% (157/201)   Receiving objects:  79% (159/201)   Receiving objects:  80% (161/201)   Receiving objects:  81% (163/201)   Receiving objects:  82% (165/201)   Receiving objects:  83% (167/201)   Receiving objects:  84% (169/201)   Receiving objects:  85% (171/201)   Receiving objects:  86% (173/201)   Receiving objects:  87% (175/201)   Receiving objects:  88% (177/201)   Receiving objects:  89% (179/201)   Receiving objects:  90% (181/201)   Receiving objects:  91% (183/201)   Receiving objects:  92% (185/201)   Receiving objects:  93% (187/201)   Receiving objects:  94% (189/201)   Receiving objects:  95% (191/201)   Receiving objects:  96% (193/201)   Receiving objects:  97% (195/201)   remote: Total 201 (delta 120), reused 0 (delta 0)[K
+Receiving objects:  98% (197/201)   Receiving objects:  99% (199/201)   Receiving objects: 100% (201/201)   Receiving objects: 100% (201/201), 960.26 KiB | 8.00 MiB/s, done.
+Resolving deltas:   0% (0/120)   Resolving deltas:   1% (2/120)   Resolving deltas:   5% (6/120)   Resolving deltas:  13% (16/120)   Resolving deltas:  19% (23/120)   Resolving deltas:  20% (24/120)   Resolving deltas:  22% (27/120)   Resolving deltas:  24% (29/120)   Resolving deltas:  25% (30/120)   Resolving deltas:  26% (32/120)   Resolving deltas:  30% (36/120)   Resolving deltas:  34% (41/120)   Resolving deltas:  35% (42/120)   Resolving deltas:  36% (44/120)   Resolving deltas:  37% (45/120)   Resolving deltas:  38% (46/120)   Resolving deltas:  39% (47/120)   Resolving deltas:  40% (48/120)   Resolving deltas:  43% (52/120)   Resolving deltas:  45% (54/120)   Resolving deltas:  46% (56/120)   Resolving deltas:  60% (72/120)   Resolving deltas:  65% (78/120)   Resolving deltas:  66% (80/120)   Resolving deltas:  68% (82/120)   Resolving deltas:  71% (86/120)   Resolving deltas:  72% (87/120)   Resolving deltas:  73% (88/120)   Resolving deltas:  74% (89/120)   Resolving deltas:  75% (90/120)   Resolving deltas:  76% (92/120)   Resolving deltas:  77% (93/120)   Resolving deltas:  78% (94/120)   Resolving deltas:  82% (99/120)   Resolving deltas:  86% (104/120)   Resolving deltas:  88% (106/120)   Resolving deltas:  89% (107/120)   Resolving deltas:  90% (108/120)   Resolving deltas:  91% (110/120)   Resolving deltas:  92% (111/120)   Resolving deltas:  93% (112/120)   Resolving deltas:  94% (113/120)   Resolving deltas:  95% (114/120)   Resolving deltas:  96% (116/120)   Resolving deltas:  99% (119/120)   Resolving deltas: 100% (120/120)   Resolving deltas: 100% (120/120), completed with 27 local objects.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs220
+   c978ba7..4490608  master     -> origin/master
+Updating c978ba7..4490608
+Fast-forward
+ .../cs220a/exam1-outline/exam1-outline.html        |  48 [32m++[m
+ .../cs220a/exam1-outline/exam1-outline.pdf         | Bin [31m0[m -> [32m32171[m bytes
+ .../cs220a/exam1-outline/exam1-outline.umt         |  44 [32m++[m
+ exams-quizzes/cs220a/exam1-sol/exam1-sol.html      | 178 [32m++++++[m
+ exams-quizzes/cs220a/exam1-sol/exam1-sol.pdf       | Bin [31m0[m -> [32m123469[m bytes
+ exams-quizzes/cs220a/exam1-sol/exam1-sol.umt       | 227 [32m++++++++[m
+ .../cs220a/exam1-sol/exam1-sol/hl-fine_blue.css    |  19 [32m+[m
+ .../cs220a/exam1-sol/exam1-sol/hl-fine_blue.sty    |  19 [32m+[m
+ exams-quizzes/cs220a/exam1/exam1.html              |  91 [32m+++[m
+ exams-quizzes/cs220a/exam1/exam1.pdf               | Bin [31m0[m -> [32m87423[m bytes
+ exams-quizzes/cs220a/exam1/exam1.umt               | 101 [32m++++[m
+ exams-quizzes/cs220a/exam1/exam1/hl-fine_blue.css  |  19 [32m+[m
+ exams-quizzes/cs220a/exam1/exam1/hl-fine_blue.sty  |  19 [32m+[m
+ exams-quizzes/cs220a/index.html                    |   6 [32m+[m
+ exams-quizzes/cs220a/index.umt                     |   4 [32m+[m[31m-[m
+ exams-quizzes/cs220b/exam1-outline                 |   1 [32m+[m
+ exams-quizzes/cs220b/exam1-sol/exam1-sol.html      | 161 [32m++++++[m
+ exams-quizzes/cs220b/exam1-sol/exam1-sol.pdf       | Bin [31m0[m -> [32m120492[m bytes
+ exams-quizzes/cs220b/exam1-sol/exam1-sol.umt       | 193 [32m+++++++[m
+ .../cs220b/exam1-sol/exam1-sol/hl-fine_blue.css    |  19 [32m+[m
+ .../cs220b/exam1-sol/exam1-sol/hl-fine_blue.sty    |  19 [32m+[m
+ exams-quizzes/cs220b/exam1/exam1.html              |  85 [32m+++[m
+ exams-quizzes/cs220b/exam1/exam1.pdf               | Bin [31m0[m -> [32m86041[m bytes
+ exams-quizzes/cs220b/exam1/exam1.umt               |  86 [32m+++[m
+ exams-quizzes/cs220b/exam1/exam1/hl-fine_blue.css  |  19 [32m+[m
+ exams-quizzes/cs220b/exam1/exam1/hl-fine_blue.sty  |  19 [32m+[m
+ .../src/programming/suspicious-statements.js       | 141 [32m+++++[m
+ hws/hw1-sol/hw1-sol.html                           | 261 [32m+++++[m[31m----[m
+ hws/hw1-sol/hw1-sol.pdf                            | Bin [31m120935[m -> [32m121872[m bytes
+ hws/hw1-sol/hw1-sol.umt                            |  27 [32m+[m[31m-[m
+ hws/hw2-sol/Makefile                               |  22 [32m+[m
+ hws/hw2-sol/hw2-sol.html                           | 383 [32m+++++++++++++[m
+ hws/hw2-sol/hw2-sol.pdf                            | Bin [31m0[m -> [32m128967[m bytes
+ hws/hw2-sol/hw2-sol.umt                            | 524 [32m+++++++++++++++++[m
+ hws/hw2-sol/hw2-sol/hl-fine_blue.css               |  19 [32m+[m
+ hws/hw2-sol/hw2-sol/hl-fine_blue.sty               |  19 [32m+[m
+ hws/index.html                                     |   2 [32m+[m
+ hws/index.umt                                      |   3 [32m+[m
+ index.html                                         |  97 [32m++[m[31m--[m
+ index.umt                                          |  28 [32m+[m
+ labs/index.html                                    |  15 [32m+[m[31m-[m
+ labs/index.umt                                     |   7 [32m+[m[31m-[m
+ labs/lab8/Makefile                                 |  32 [32m++[m
+ labs/lab8/files/.gitignore                         |   3 [32m+[m
+ labs/lab8/files/Makefile                           |  10 [32m+[m
+ labs/lab8/files/README.md                          |   4 [32m+[m
+ labs/lab8/files/hello-multi.c                      |  14 [32m+[m
+ labs/lab8/files/hello-one.c                        |   9 [32m+[m
+ labs/lab8/lab8.html                                | 389 [32m+++++++++++++[m
+ labs/lab8/lab8.pdf                                 | Bin [31m0[m -> [32m98003[m bytes
+ labs/lab8/lab8.umt                                 | 637 [32m+++++++++++++++++++++[m
+ labs/lab8/lab8/hl-fine_blue.css                    |  19 [32m+[m
+ labs/lab8/lab8/hl-fine_blue.sty                    |  19 [32m+[m
+ misc/bin-num/220a/.gitignore                       |   1 [32m+[m
+ misc/bin-num/220a/Makefile                         |  12 [32m+[m
+ misc/bin-num/220a/main.c                           |  24 [32m+[m
+ misc/bin-num/220b/.gitignore                       |   1 [32m+[m
+ misc/bin-num/220b/Makefile                         |  13 [32m+[m
+ misc/bin-num/220b/bin-num.c                        |   1 [32m+[m
+ misc/bin-num/220b/bin-num.h                        |   1 [32m+[m
+ misc/bin-num/220b/main.c                           |  25 [32m+[m
+ slides/x86/{images => figs}/call-ret.gif           | Bin
+ slides/x86/{images => figs}/fact-frame.gif         | Bin
+ slides/x86/{images => figs}/stack-frame.gif        | Bin
+ slides/x86/{images => figs}/stack-ops.gif          | Bin
+ slides/x86/{images => figs}/swap-frame.gif         | Bin
+ slides/x86/figs/x86-64_registers.png               | Bin [31m0[m -> [32m104614[m bytes
+ slides/x86/{images => figs}/x86-alt-regs.gif       | Bin
+ slides/x86/{images => figs}/x86-regs.gif           | Bin
+ slides/x86/{images => figs}/x86-seg-regs.gif       | Bin
+ slides/x86/x86.html                                |  25 [32m+[m[31m-[m
+ slides/x86/x86.pdf                                 | Bin [31m119865[m -> [32m198325[m bytes
+ slides/x86/x86.umt                                 |  40 [32m+[m[31m-[m
+ 73 files changed, 4002 insertions(+), 202 deletions(-)
+ create mode 100644 exams-quizzes/cs220a/exam1-outline/exam1-outline.html
+ create mode 100644 exams-quizzes/cs220a/exam1-outline/exam1-outline.pdf
+ create mode 100644 exams-quizzes/cs220a/exam1-outline/exam1-outline.umt
+ create mode 100644 exams-quizzes/cs220a/exam1-sol/exam1-sol.html
+ create mode 100644 exams-quizzes/cs220a/exam1-sol/exam1-sol.pdf
+ create mode 100644 exams-quizzes/cs220a/exam1-sol/exam1-sol.umt
+ create mode 100644 exams-quizzes/cs220a/exam1-sol/exam1-sol/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs220a/exam1-sol/exam1-sol/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs220a/exam1/exam1.html
+ create mode 100644 exams-quizzes/cs220a/exam1/exam1.pdf
+ create mode 100644 exams-quizzes/cs220a/exam1/exam1.umt
+ create mode 100644 exams-quizzes/cs220a/exam1/exam1/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs220a/exam1/exam1/hl-fine_blue.sty
+ create mode 120000 exams-quizzes/cs220b/exam1-outline
+ create mode 100644 exams-quizzes/cs220b/exam1-sol/exam1-sol.html
+ create mode 100644 exams-quizzes/cs220b/exam1-sol/exam1-sol.pdf
+ create mode 100644 exams-quizzes/cs220b/exam1-sol/exam1-sol.umt
+ create mode 100644 exams-quizzes/cs220b/exam1-sol/exam1-sol/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs220b/exam1-sol/exam1-sol/hl-fine_blue.sty
+ create mode 100644 exams-quizzes/cs220b/exam1/exam1.html
+ create mode 100644 exams-quizzes/cs220b/exam1/exam1.pdf
+ create mode 100644 exams-quizzes/cs220b/exam1/exam1.umt
+ create mode 100644 exams-quizzes/cs220b/exam1/exam1/hl-fine_blue.css
+ create mode 100644 exams-quizzes/cs220b/exam1/exam1/hl-fine_blue.sty
+ create mode 100644 exercises/questions/src/programming/suspicious-statements.js
+ create mode 100644 hws/hw2-sol/Makefile
+ create mode 100644 hws/hw2-sol/hw2-sol.html
+ create mode 100644 hws/hw2-sol/hw2-sol.pdf
+ create mode 100644 hws/hw2-sol/hw2-sol.umt
+ create mode 100644 hws/hw2-sol/hw2-sol/hl-fine_blue.css
+ create mode 100644 hws/hw2-sol/hw2-sol/hl-fine_blue.sty
+ create mode 100755 labs/lab8/Makefile
+ create mode 100644 labs/lab8/files/.gitignore
+ create mode 100644 labs/lab8/files/Makefile
+ create mode 100644 labs/lab8/files/README.md
+ create mode 100644 labs/lab8/files/hello-multi.c
+ create mode 100644 labs/lab8/files/hello-one.c
+ create mode 100644 labs/lab8/lab8.html
+ create mode 100644 labs/lab8/lab8.pdf
+ create mode 100644 labs/lab8/lab8.umt
+ create mode 100644 labs/lab8/lab8/hl-fine_blue.css
+ create mode 100644 labs/lab8/lab8/hl-fine_blue.sty
+ create mode 100644 misc/bin-num/220a/.gitignore
+ create mode 100644 misc/bin-num/220a/Makefile
+ create mode 100644 misc/bin-num/220a/main.c
+ create mode 100644 misc/bin-num/220b/.gitignore
+ create mode 100644 misc/bin-num/220b/Makefile
+ create mode 100644 misc/bin-num/220b/main.c
+ rename slides/x86/{images => figs}/call-ret.gif (100%)
+ rename slides/x86/{images => figs}/fact-frame.gif (100%)
+ rename slides/x86/{images => figs}/stack-frame.gif (100%)
+ rename slides/x86/{images => figs}/stack-ops.gif (100%)
+ rename slides/x86/{images => figs}/swap-frame.gif (100%)
+ create mode 100644 slides/x86/figs/x86-64_registers.png
+ rename slides/x86/{images => figs}/x86-alt-regs.gif (100%)
+ rename slides/x86/{images => figs}/x86-regs.gif (100%)
+ rename slides/x86/{images => figs}/x86-seg-regs.gif (100%)
+qxiong1@remote00:~/cs220/labs$ cd ~
+qxiong1@remote00:~$ cd tep[K[Kmp
+qxiong1@remote00:~/tmp$ ls
+lab8
+qxiong1@remote00:~/tmp$ cd lab8
+qxiong1@remote00:~/tmp/lab8$ ls
+work
+qxiong1@remote00:~/tmp/lab8$ w[Kcd work
+qxiong1@remote00:~/tmp/lab8/work$ cd lab8
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ls
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220b/labs/lab8/files/README.md
+cp: missing destination file operand after '/home/qxiong1/cs220b/labs/lab8/files/README.md'
+Try 'cp --help' for more information.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220b/labs/lab8/files/README.md .
+cp: cannot stat '/home/qxiong1/cs220b/labs/lab8/files/README.md': No such file or directory
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220b/labs/lab8/files/README.md .[1P
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git add README.md 
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	[32mnew file:   README.md[m
+
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status --short
+[32mA[m  README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -m
+error: switch `m' requires a value
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -m "[K'added REAd[KDME'
+[master (root-commit) 5354549] added README
+ Committer: Qicheng Xiong <qxiong1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+)
+ create mode 100644 work/lab8/README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git branch -l
+[?1h=* [32mmaster[m[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git push --set-ip[K[Kupstream origin master
+qxiong1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)   Counting objects:  40% (2/5)   Counting objects:  60% (3/5)   Counting objects:  80% (4/5)   Counting objects: 100% (5/5)   Counting objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 340 bytes | 170.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ s[Kgit status -s
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status- [K[K -so[K[K-short
+qxiong1@remote00:~/tmp/lab8/work/lab8$ vc[K[Kcp ~/cs220/labs/lab8/files/Makefile .
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220/labs/lab8/files/hello-one.c he lloc[K.c
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ls
+hello.c  Makefile  README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+[01m[Khello.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Khello.c:5:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kprintf[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+     [01;35m[Kprintf[m[K("usage: %s NAME\n", argv[0]);
+     [01;35m[K^~~~~~[m[K
+[01m[Khello.c:5:5:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kprintf[m[K’
+[01m[Khello.c:5:5:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdio.h>[m[K’ or provide a declaration of ‘[01m[Kprintf[m[K’
+[01m[Khello.c:1:1:[m[K
++[32m[K#include <stdio.h>[m[K
+ int
+[01m[Khello.c:5:5:[m[K
+     [01;36m[Kprintf[m[K("usage: %s NAME\n", argv[0]);
+     [01;36m[K^~~~~~[m[K
+[01m[Khello.c:6:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kexit[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+     [01;35m[Kexit[m[K(1);
+     [01;35m[K^~~~[m[K
+[01m[Khello.c:6:5:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kexit[m[K’
+[01m[Khello.c:6:5:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kexit[m[K’
+[01m[Khello.c:1:1:[m[K
++[32m[K#include <stdlib.h>[m[K
+ int
+[01m[Khello.c:6:5:[m[K
+     [01;36m[Kexit[m[K(1);
+     [01;36m[K^~~~[m[K
+[01m[Khello.c:8:3:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kprintf[m[K’
+   [01;35m[Kprintf[m[K("hello %s\n", argv[1]);
+   [01;35m[K^~~~~~[m[K
+[01m[Khello.c:8:3:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdio.h>[m[K’ or provide a declaration of ‘[01m[Kprintf[m[K’
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello
+usage: ./hello NAME
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello j[Ko[Kjohn
+hello john
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status -s
+[31m??[m Makefile
+[31m??[m hello
+[31m??[m hello.c
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220/labs/lab8/files/.gitignor .
+cp: cannot stat '/home/qxiong1/cs220/labs/lab8/files/.gitignor': No such file or directory
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220/labs/lab8/files/.gitignor .[1@ 
+cp: -r not specified; omitting directory '/home/qxiong1/cs220/labs/lab8/files/'
+cp: cannot stat '.gitignor': No such file or directory
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220/labs/lab8/files/ .gitignor .e .[1P
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status -s
+[31m??[m .gitignore
+[31m??[m Makefile
+[31m??[m hello.c
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git add .
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status -s
+[32mA[m  .gitignore
+[32mA[m  Makefile
+[32mA[m  hello.c
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -m 'working with warnings'
+[master 5b1b419] working with warnings
+ Committer: Qicheng Xiong <qxiong1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 22 insertions(+)
+ create mode 100644 work/lab8/.gitignore
+ create mode 100644 work/lab8/Makefile
+ create mode 100644 work/lab8/hello.c
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status -s
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git push
+qxiong1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 10, done.
+Counting objects:  10% (1/10)   Counting objects:  20% (2/10)   Counting objects:  30% (3/10)   Counting objects:  40% (4/10)   Counting objects:  50% (5/10)   Counting objects:  60% (6/10)   Counting objects:  70% (7/10)   Counting objects:  80% (8/10)   Counting objects:  90% (9/10)   Counting objects: 100% (10/10)   Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 674 bytes | 224.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+   5354549..5b1b419  master -> master
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git log
+[?1h=[33mcommit 5b1b419e3d75f348caf7758376205c5fe231e247[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:25:20 2019 -0400[m
+[m
+    working with warnings[m
+[m
+[33mcommit 53545498bd71fcd1efd1f3da8c9c325c9f38f3d8[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:16:29 2019 -0400[m
+[m
+    added README[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ make[K[K[K[Kls
+hello  hello.c	Makefile  README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ vim hello/.[K[K.c 
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 9L, 153C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc != [31m2[m) {
+    printf([31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m, argv[[31m0[m]);
+    exit([31m1[m);
+  }
+  printf([31m"hello [m[35m%s\n[m[31m"[m, argv[[31m1[m]);
+}
+[94m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;1H[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l[24;65H3[1;3H[?25h[?25l[24;65H1[1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H1,1[11CAll[1;1H[?25h[?25l[2;23r[2;1H[L[1;24r[1;1H[K[2;9H[32mint[m[24;63H[K[24;63H2,2-9[9CAll[2;9H[?25h[?25l[32mint[m[2;9H[K[24;65H1  [2;1H[?25h[?25l[24;65H4[2;4H[?25h[?25l[24;63H1,1[1;1H[?25h[?25l#[24;65H2[1;2H[?25h[?25l<[24;65H3[1;3H[?25h[?25li[24;65H4[1;4H[?25h[?25ln[24;65H5[1;5H[?25h[?25lc[24;65H6[1;6H[?25h[?25ll[24;65H7[1;7H[?25h[?25lu[24;65H8[1;8H[?25h[?25ld[24;65H9[1;9H[?25h[?25le[24;65H10[1;10H[?25h[?25l>[24;66H1[1;11H[?25h[?25l[1;10H[K[24;66H0[1;10H[?25h[?25l[24;66H1[1;11H[?25h[?25l[24;66H0[1;10H[?25h[?25l[1;9H[K[24;65H9 [1;9H[?25h[?25l[1;8H[K[24;65H8[1;8H[?25h[?25l[1;7H[K[24;65H7[1;7H[?25h[?25l[1;6H[K[24;65H6[1;6H[?25h[?25l[1;5H[K[24;65H5[1;5H[?25h[?25l[1;4H[K[24;65H4[1;4H[?25h[?25l[1;3H[K[24;65H3[1;3H[?25h[?25l[1;2H[K[24;65H2[1;2H[?25h[?25li[24;65H3[1;3H[?25h[?25ln[24;65H4[1;4H[?25h[?25lc[24;65H5[1;5H[?25h[?25ll[24;65H6[1;6H[?25h[?25lu[24;65H7[1;7H[?25h[?25ld[24;65H8[1;8H[?25h[?25le[24;65H9[1;9H[?25h[?25l[24;65H10[1;10H[?25h[?25l[35m#include <[m[24;66H1[1;11H[?25h[?25l[31m<>[m[24;66H2[1;12H[?25h[?25l[24;66H1[1;11H[?25h[?25l[31ms>[m[24;66H2[1;12H[?25h[?25l[31mt>[m[24;66H3[1;13H[?25h[?25l[31md>[m[24;66H4[1;14H[?25h[?25l[31mi>[m[24;66H5[1;15H[?25h[?25l[31mo>[m[24;66H6[1;16H[?25h[?25l[31m.>[m[24;66H7[1;17H[?25h[?25l[31mj>[m[24;66H8[1;18H[?25h[?25l[31m>[m[1;18H[K[24;66H7[1;17H[?25h[?25l[31mh>[m[24;66H8[1;18H[?25h[?25l[24;66H9[1;19H[?25h[?25l[2;23r[2;1H[L[1;24r[24;63H[K[24;63H2,1[11CAll[2;1H[?25h[?25l#[24;65H2[2;2H[?25h[?25li[24;65H3[2;3H[?25h[?25ln[24;65H4[2;4H[?25h[?25lc[24;65H5[2;5H[?25h[?25ll[24;65H6[2;6H[?25h[?25lu[24;65H7[2;7H[?25h[?25ld[24;65H8[2;8H[?25h[?25le[24;65H9[2;9H[?25h[?25l[24;65H10[2;10H[?25h[?25l[35m#include <[m[24;66H1[2;11H[?25h[?25l[31m<>[m[24;66H2[2;12H[?25h[?25l[24;66H1[2;11H[?25h[?25l[31ms>[m[24;66H2[2;12H[?25h[?25l[31mt>[m[24;66H3[2;13H[?25h[?25l[31md>[m[24;66H4[2;14H[?25h[?25l[31ml>[m[24;66H5[2;15H[?25h[?25l[31mi>[m[24;66H6[2;16H[?25h[?25l[31mb>[m[24;66H7[2;17H[?25h[?25l[31m.>[m[24;66H8[2;18H[?25h[?25l[31mh>[m[24;66H9[2;19H[?25h[?25l[24;65H20[2;20H[?25h[?25l[3;23r[3;1H[L[1;24r[24;63H[K[24;63H3,1[11CAll[3;1H[?25h[24;1H[K[3;1H[?25l[24;53H^[[3;1H[24;53H  [3;1H[24;63H3,0-1[9CAll[3;1H[?25h[?25l[24;53H:[3;1H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.c" 12L, 193C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tqxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+make: Nothing to be done for 'all'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello sue
+hello sue
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git status -s
+ [31mM[m hello.c
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -a m'wo[K[K[K '[K[K[K-m 'working [K:L[K clean complie' [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K'
+[master 091e6cb] working: clean complie
+ Committer: Qicheng Xiong <qxiong1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git push
+qxiong1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)   Counting objects:  22% (2/9)   Counting objects:  33% (3/9)   Counting objects:  44% (4/9)   Counting objects:  55% (5/9)   Counting objects:  66% (6/9)   Counting objects:  77% (7/9)   Counting objects:  88% (8/9)   Counting objects: 100% (9/9)   Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 405 bytes | 405.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+   5b1b419..091e6cb  master -> master
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ig[K[Kgit log hello.c
+[?1h=[33mcommit 091e6cb24a96e8e8c318ade6f84b97115507ada6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:27:54 2019 -0400[m
+[m
+    working: clean complie[m
+[m
+[33mcommit 5b1b419e3d75f348caf7758376205c5fe231e247[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:25:20 2019 -0400[m
+[m
+    working with warnings[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git log -1 hello.c
+[?1h=[33mcommit 091e6cb24a96e8e8c318ade6f84b97115507ada6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:27:54 2019 -0400[m
+[m
+    working: clean complie[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+make: Nothing to be done for 'all'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ vim hello.c
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 12L, 193C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<stdio.h>[m
+[35m#include [m[31m<stdlib.h>[m
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc != [31m2[m) {
+    printf([31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m, argv[[31m0[m]);
+    exit([31m1[m);
+  }
+  printf([31m"hello [m[35m%s\n[m[31m"[m, argv[[31m1[m]);
+}
+[94m~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H3,0-1[9CAll[3;1H[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l[24;63H11,5 [11;5H[?25h[?25l[24;53Hi[11;5H[24;53H [11;5H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H11,5[10CAll[11;5H[?25h[?25l[24;63H8,5 [8;5H[?25h[?25lfprintf([31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m, argv[[31m0[m]);[24;65H6[8;6H[?25h[24;1H[K[8;5H[?25l[24;53H^[[8;5H[24;53H  [8;6H[24;63H8,5[11CAll[8;5H[?25h[?25l[24;53H:[8;5H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.c" 12L, 194C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tqxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+[01m[Khello.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Khello.c:8:13:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kfprintf[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     fprintf([01;35m[K"usage: %s NAME\n"[m[K, argv[0]);
+             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[Khello.c:1[m[K:
+[01m[K/usr/include/stdio.h:326:38:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[KFILE * restrict[m[K’ {aka ‘[01m[Kstruct _IO_FILE * restrict[m[K’} but argument is of type ‘[01m[Kchar *[m[K’
+ extern int fprintf ([01;36m[KFILE *__restrict __stream[m[K,
+                     [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+qxiong1@remote00:~/tmp/lab8/work/lab8$ vim hello.c
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 12L, 194C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<stdio.h>[m
+[35m#include [m[31m<stdlib.h>[m
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc != [31m2[m) {
+    fprintf([31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m, argv[[31m0[m]);
+    exit([31m1[m);
+  }
+  printf([31m"hello [m[35m%s\n[m[31m"[m, argv[[31m1[m]);
+}
+[94m~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H8,5[11CAll[8;5H[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l[24;53Hi[8;5H[24;53H [8;5H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H8,5[11CAll[8;5H[?25h[?25l[7C[106m([27C)[m[24;65H13[8;13H[?25h[?25l[24;4H[1m(insert)- VISUAL --[m[24;63H[K[24;53H2[8;14H[24;63H8,14[10CAll[8;14H([31m[47m"[m[26C)[8;14H[?25h[?25l[24;53H3[8;15H[31m[47mu[m[24;66H5[8;15H[?25h[?25l[24;53H4[8;16H[31m[47ms[m[24;66H6[8;16H[?25h[?25l[24;53H5[8;17H[31m[47ma[m[24;66H7[8;17H[?25h[?25l[24;53H6[8;18H[31m[47mg[m[24;66H8[8;18H[?25h[?25l[24;53H7[8;19H[31m[47me[m[24;66H9[8;19H[?25h[?25l[24;53H8[8;20H[31m[47m:[m[24;65H20[8;20H[?25h[?25l[24;53H9[8;21H[31m[47m [m[24;66H1[8;21H[?25h[?25l[24;53H10[8;22H[35m[47m%[m[24;66H2[8;22H[?25h[?25l[24;54H1[8;23H[35m[47ms[m[24;66H3[8;23H[?25h[?25l[24;54H2[8;24H[31m[47m [m[24;66H4[8;24H[?25h[?25l[24;54H3[8;25H[31m[47mN[m[24;66H5[8;25H[?25h[?25l[24;54H4[8;26H[31m[47mA[m[24;66H6[8;26H[?25h[?25l[24;54H5[8;27H[31m[47mM[m[24;66H7[8;27H[?25h[?25l[24;54H6[8;28H[31m[47mE[m[24;66H8[8;28H[?25h[?25l[24;54H7[8;29H[35m[47m\[m[24;66H9[8;29H[?25h[?25l[24;54H8[8;30H[35m[47mn[m[24;65H30[8;30H[?25h[?25l[24;54H9[8;31H[31m[47m"[m[24;66H1[8;31H[?25h[?25l[24;53H20[8;32H[47m,[m[24;66H2[8;32H[?25h[?25l[24;54H1[8;33H[47m [m[24;66H3[8;33H[?25h[?25l[24;54H2[8;34H[47ma[m[24;66H4[8;34H[?25h[?25l[24;54H3[8;35H[47mr[m[24;66H5[8;35H[?25h[?25l[24;54H4[8;36H[47mg[m[24;66H6[8;36H[?25h[?25l[24;54H5[8;37H[47mv[m[106m[[1C][m[24;66H7[8;37H[?25h[?25l[24;54H6[8;38H[47m[[m[1C][24;66H8[8;38H[?25h[?25l[24;54H7[8;39H[31m[47m0[m[106m][m[24;66H9[8;39H[?25h[?25l[24;54H8[8;40H[8;12H[106m([m[26C[47m][m[106m)[m[24;65H40[8;40H[?25h[?25l[?25h[?25l[24;53H  [9;13H[24;4H[1mINSERTt --[m[24;13H[K[24;63H9,13[10CAll[8;13H[31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m, argv[[31m0[m][8;12H([27C)[9;13H[?25h[?25l[8;12H[106m([27C)[m[24;63H8,40[8;40H[?25h[?25l[97m[101m)[m[97m[106m;[m[8;41H[K[9;12H[97m[101m;[m[8;39H[97m[106m)[m[97m[101m;[m[24;65H39[8;39H[?25h[?25l[97m[101m)[m[97m[106m;[m[8;40H[K[8;38H[97m[106m)[m[97m[101m;[m[24;66H8[8;38H[?25h[?25l)[106m;[m[8;39H[K[9;12H;[8;37H[106m)[m;[24;66H7[8;37H[?25h[?25l)[106m;[m[8;38H[K[8;36H[106m)[m;[24;66H6[8;36H[?25h[?25l)[106m;[m[8;37H[K[8;35H[106m)[m;[24;66H5[8;35H[?25h[?25l)[106m;[m[8;36H[K[8;34H[106m)[m;[24;66H4[8;34H[?25h[?25l)[106m;[m[8;35H[K[8;33H[106m)[m;[24;66H3[8;33H[?25h[?25l)[106m;[m[8;34H[K[8;32H[106m)[m;[24;66H2[8;32H[?25h[?25l)[106m;[m[8;33H[K[8;31H[106m)[m;[24;66H1[8;31H[?25h[?25l[8;12H([18C)[24;66H0[8;30H[?25h[?25l[24;65H29[8;29H[?25h[?25l[24;66H8[8;28H[?25h[?25l[24;66H7[8;27H[?25h[?25l[24;66H6[8;26H[?25h[?25l[24;66H5[8;25H[?25h[?25l[24;66H4[8;24H[?25h[?25l[24;66H3[8;23H[?25h[?25l[24;66H2[8;22H[?25h[?25l[24;66H1[8;21H[?25h[?25l[24;66H0[8;20H[?25h[?25l[24;65H19[8;19H[?25h[?25l[24;66H8[8;18H[?25h[?25l[24;66H7[8;17H[?25h[?25l[24;66H6[8;16H[?25h[?25l[24;66H5[8;15H[?25h[?25l[24;66H4[8;14H[?25h[?25l[106m([18C)[m[24;66H3[8;13H[?25h[?25l[24;66H2[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[24;63H[K[24;63H8,12[10CAll[8;12H[?25h[?25l[106ms[m([31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m[106m"[m);[8;12Hs[106m([m[17C[31m"[m[106m)[m[24;66H3[8;13H[?25h[?25l([31m[106m"[m[31musage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m)[106m;[m[8;33H[K[8;12H[106m([m[31m"[m[17C[106m)[m;[24;66H2[8;12H[?25h[?25l[24;66H3[8;13H[?25h[?25ls[31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m[106m"[m);[8;12H([18C[31m"[m[24;66H4[8;14H[?25h[?25lt[31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);[24;66H5[8;15H[?25h[?25ld[31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);[24;66H6[8;16H[?25h[?25le[31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);[24;66H7[8;17H[?25h[?25lr[31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);[24;66H8[8;18H[?25h[?25l[31mstderr"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);[24;66H9[8;19H[?25h[?25l,[31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);[24;65H20[8;20H[?25h[?25l [31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);[24;66H1[8;21H[?25h[24;1H[K[8;20H[?25l[24;53H^[[8;20H[24;53H  [8;21H[24;63H8,20[10CAll[8;20H[?25h[?25l[24;53H:[8;20H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.c" 12L, 193C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tqxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+[01m[Khello.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Khello.c:8:30:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar *[m[K’ argument [[01;35m[K-Wformat=[m[K]
+     fprintf(stderr, "usage: [01;35m[K%s[m[K NAME\n");
+                             [01;35m[K~^[m[K
+qxiong1@remote00:~/tmp/lab8/work/lab8$ l[Kvim hello.c
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 12L, 193C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<stdio.h>[m
+[35m#include [m[31m<stdlib.h>[m
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc != [31m2[m) {
+    fprintf([31mstderr[m, [31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m);
+    exit([31m1[m);
+  }
+  printf([31m"hello [m[35m%s\n[m[31m"[m, argv[[31m1[m]);
+}
+[94m~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H8,20[10CAll[8;20H[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l[8;12H[106m([26C)[m[24;65H39[8;39H[?25h[?25l[24;53Hi[8;39H[24;53H [8;39H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H8,39[10CAll[8;39H[?25h[?25l[106m,[m);,[106m)[m[24;65H40[8;40H[?25h[?25l[106m [m); [106m)[m[24;66H1[8;41H[?25h[?25l[106ma[m);a[106m)[m[24;66H2[8;42H[?25h[?25l[106mr[m);r[106m)[m[24;66H3[8;43H[?25h[?25l[106mg[m);g[106m)[m[24;66H4[8;44H[?25h[?25l[106mv[m);v[106m)[m[24;66H5[8;45H[?25h[?25l[106m[[m[97m[101m);[9;12H;[m[8;45H[[97m[106m)[m[24;66H6[8;46H[?25h[?25l[31m[106m0[m[97m[101m);[m[31m0[m[97m[106m)[m[24;66H7[8;47H[?25h[?25l[106m][m);[9;12H;[8;47H][106m)[m[24;66H8[8;48H[?25h[24;1H[K[8;47H[?25l[24;53H^[[8;47H[24;53H  [8;48H[8;12H([32C[106m[[1C][m)[24;63H8,47[10CAll[8;47H[?25h[?25l[24;53H:[8;47H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.c" 12L, 202C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tqxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello [K
+usage: ./hello NAME
+qxiong1@remote00:~/tmp/lab8/work/lab8$ j[K./hello >/deve[K/null
+usage: ./hello NAME
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git diff
+[?1h=[1mdiff --git a/work/lab8/hello.c b/work/lab8/hello.c[m[m
+[1mindex 14e4e73..707ef29 100644[m[m
+[1m--- a/work/lab8/hello.c[m[m
+[1m+++ b/work/lab8/hello.c[m[m
+[36m@@ -5,7 +5,7 @@[m [mint[m[m
+ main(int argc, const char *argv[])[m[m
+ {[m[m
+   if (argc != 2) {[m[m
+[31m-    printf("usage: %s NAME\n", argv[0]);[m[m
+[32m+[m[32m    fprintf(stderr, "usage: %s NAME\n", argv[0]);[m[m
+     exit(1);[m[m
+   }[m[m
+   printf("hello %s\n", argv[1]);[m[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -a -m 'send usage message to s tderr'
+[master 13f2dc9] send usage message to stderr
+ Committer: Qicheng Xiong <qxiong1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git push
+qxiong1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)   Counting objects:  22% (2/9)   Counting objects:  33% (3/9)   Counting objects:  44% (4/9)   Counting objects:  55% (5/9)   Counting objects:  66% (6/9)   Counting objects:  77% (7/9)   Counting objects:  88% (8/9)   Counting objects: 100% (9/9)   Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 397 bytes | 397.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+   091e6cb..13f2dc9  master -> master
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git shortlog
+[?1h=Qicheng Xiong (4):[m
+      added README[m
+      working with warnings[m
+      working: clean complie[m
+      send usage message to stderr[m
+[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git shortlog
+[?1h=Qicheng Xiong (4):[m
+      added README[m
+      working with warnings[m
+      working: clean complie[m
+      send usage message to stderr[m
+[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git shortlog
+[?1h=Qicheng Xiong (4):[m
+      added README[m
+      working with warnings[m
+      working: clean complie[m
+      send usage message to stderr[m
+[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git shortlog
+[?1h=Qicheng Xiong (4):[m
+      added README[m
+      working with warnings[m
+      working: clean complie[m
+      send usage message to stderr[m
+[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git shortlog
+[?1h=Qicheng Xiong (4):[m
+      added README[m
+      working with warnings[m
+      working: clean complie[m
+      send usage message to stderr[m
+[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout -b b[Khello-multi
+Switched to a new branch 'hello-multi'
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ls
+hello  hello.c	Makefile  README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cp ~/cs220/ls[Kabs/lab8/files/hello-multi/c[K[K.c  hello.c
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello
+usage: ./hello NAME...
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello michael
+hello michael
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -a -m 'allow [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./hello michael bern
+hello michael
+hello bern
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit- [K[K -a -m 'allow greeting multiple  names'
+[hello-multi 8da9878] allow greeting multiple names
+ Committer: Qicheng Xiong <qxiong1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git push -u origin hello-multi
+qxiong1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)   Counting objects:  22% (2/9)   Counting objects:  33% (3/9)   Counting objects:  44% (4/9)   Counting objects:  55% (5/9)   Counting objects:  66% (6/9)   Counting objects:  77% (7/9)   Counting objects:  88% (8/9)   Counting objects: 100% (9/9)   Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 462 bytes | 462.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+ * [new branch]      hello-multi -> hello-multi
+Branch 'hello-multi' set up to track remote branch 'hello-multi' from 'origin'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout multi[K[K[K[K[Khello-multi-hello-multibhello-multi hello-multi
+fatal: A branch named 'hello-multi' already exists.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout hello-multi
+Switched to branch 'hello-multi'
+Your branch is up to date with 'origin/hello-multi'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout origin[K[K[K[K[K[Kmaster
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout master[K[K[K[K[K[Korigin
+error: pathspec 'origin' did not match any file(s) known to git
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout origin/master
+Note: checking out 'origin/master'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 13f2dc9 send usage message to stderr
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout origin/master[1Pmaster[1Pmaster[1Pmaster[1Pmaster[1Pmaster[1Pmaster[1Pmaster
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello michael bern
+usage: ./hello NAME
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout hello-multi
+Switched to branch 'hello-multi'
+Your branch is up to date with 'origin/hello-multi'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ls
+hello  hello.c	Makefile  README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello michael bern
+usage: ./hello NAME
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make./hello michael bern
+hello michael
+hello bern
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git branch -l
+[?1h=* [32mhello-multi[m[m
+  master[m[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ls
+hello  hello.c	Makefile  README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ [Kqxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ hel[K[K[K./hello micahel[K[K[K[Khael
+hello michael
+qxiong1@remote00:~/tmp/lab8/work/lab8$ vim hello.c
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 12L, 202C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<stdio.h>[m
+[35m#include [m[31m<stdlib.h>[m
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc != [31m2[m) {
+    fprintf([31mstderr[m, [31m"usage: [m[35m%s[m[31m NAME[m[35m\n[m[31m"[m, argv[106m[[m[31m0[m[106m][m);
+    exit([31m1[m);
+  }
+  printf([31m"hello [m[35m%s\n[m[31m"[m, argv[[31m1[m]);
+}
+[94m~                                                                                        [14;1H~                                                                                        [15;1H~                                                                                        [16;1H~                                                                                        [17;1H~                                                                                        [18;1H~                                                                                        [19;1H~                                                                                        [20;1H~                                                                                        [21;1H~                                                                                        [22;1H~                                                                                        [23;1H~                                                                                        [m[24;72H8,47[10CAll[8;47H[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l[[1C][24;72H11,32[11;32H[?25h[?25l[24;62Hi[11;32H[24;62H [11;32H[24;1H[1m-- INSERT --[m[24;13H[K[24;72H11,32[9CAll[11;32H[?25h[?25l[24;76H3[11;33H[?25h[?25l[12;23r[12;1H[L[1;24r[24;72H[K[24;72H12,3[10CAll[12;3H[?25h[?25l[13;23r[13;1H[L[1;24r[24;72H[K[24;72H13,3[10CAll[13;3H[?25h[?25lr[24;75H4[13;4H[?25h[?25le[24;75H5[13;5H[?25h[?25lt[24;75H6[13;6H[?25h[?25lu[24;75H7[13;7H[?25h[?25lr[24;75H8[13;8H[?25h[?25l  [38;5;130mreturn[m[24;75H9[13;9H[?25h[?25l[24;75H10[13;10H[?25h[?25l[31m0[m[24;76H1[13;11H[?25h[?25l;[24;76H2[13;12H[?25h[24;1H[K[13;11H[?25l[24;62H^[[13;11H[24;62H  [13;12H[24;72H13,11[9CAll[13;11H[?25h[?25l[24;62H:[13;11H[24;62H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.c" 14L, 215C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tqxiong1@remote00:~/tmp/lab8/work/lab8$ tail -3 hello.c
+
+  return 0;
+}
+qxiong1@remote00:~/tmp/lab8/work/lab8$ p[Kls
+hello  hello.c	Makefile  README.md
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello
+usage: ./hello NAME
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello us[K[Ksue
+hello sue
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -a -m 'added return at end of main()'
+[master b70d53c] added return at end of main()
+ Committer: Qicheng Xiong <qxiong1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git push
+qxiong1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)   Counting objects:  22% (2/9)   Counting objects:  33% (3/9)   Counting objects:  44% (4/9)   Counting objects:  55% (5/9)   Counting objects:  66% (6/9)   Counting objects:  77% (7/9)   Counting objects:  88% (8/9)   Counting objects: 100% (9/9)   Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 396 bytes | 198.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+   13f2dc9..b70d53c  master -> master
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git checkout m[Khello-multi
+Switched to branch 'hello-multi'
+Your branch is up to date with 'origin/hello-multi'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git merge master
+Auto-merging work/lab8/hello.c
+CONFLICT (content): Merge conflict in work/lab8/hello.c
+Automatic merge failed; fix conflicts and then commit the result.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ vim hello.c
+[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"hello.c" 20L, 327C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[35m#include [m[31m<stdio.h>[m
+[35m#include [m[31m<stdlib.h>[m
+
+[32mint[m
+main([32mint[m argc, [32mconst[m [32mchar[m *argv[])
+{
+  [38;5;130mif[m (argc < [31m2[m) {
+    fprintf([31mstderr[m, [31m"usage: [m[35m%s[m[31m NAME...[m[35m\n[m[31m"[m, argv[[31m0[m]);
+    exit([31m1[m);
+  }
+<<<<<<< HEAD
+  [38;5;130mfor[m ([32mint[m i = [31m1[m; i < argc; i++) {
+    printf[106m([m[31m"hello [m[35m%s\n[m[31m"[m, argv[i][106m)[m;
+  }
+=======
+  printf([31m"hello [m[35m%s\n[m[31m"[m, argv[[31m1[m]);
+
+  [38;5;130mreturn[m [31m0[m;
+>>>>>>> master
+}
+[94m~                                                                                        [22;1H~                                                                                        [23;1H~                                                                                        [m[24;72H13,11[9CAll[13;11H[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l([21C)[24;73H1,12[11;12H[?25h[?25l[47mD[m[24;1H[1m-- VISUAL --[m[24;13H[K[24;72H11,13[9CAll[11;13H[?25h[?25l[24;62H2[11;13H[?25h[?25l[24;62H [11;12HD[24;1H[K[24;72H11,12[9CAll[11;12H[?25h[?25l[24;62Hi[11;12H[24;62H [11;12H[24;1H[1m-- INSERT --[m[24;72H[K[24;72H11,12[9CAll[11;12H[?25h[?25l[24;76H3[11;13H[?25h[?25l[11;12H[K[24;76H2[11;12H[?25h[?25l[11;11H[K[24;76H1[11;11H[?25h[?25l[11;10H[K[24;76H0[11;10H[?25h[?25l[11;9H[K[24;75H9 [11;9H[?25h[?25l[24;75H8[11;8H[?25h[?25l[11;7H[K[24;75H7[11;7H[?25h[?25l[11;6H[K[24;75H6[11;6H[?25h[?25l[11;5H[K[24;75H5[11;5H[?25h[?25l[11;4H[K[24;75H4[11;4H[?25h[?25l[11;3H[K[24;75H3[11;3H[?25h[?25l[11;2H[K[24;75H2[11;2H[?25h[?25l[11;1H[K[24;75H1[11;1H[?25h[?25l[24;73H5,8[15;8H[?25h[?25l[15;7H[K[24;75H7[15;7H[?25h[?25l[15;6H[K[24;75H6[15;6H[?25h[?25l[15;5H[K[24;75H5[15;5H[?25h[?25l[15;4H[K[24;75H4[15;4H[?25h[?25l[15;3H[K[24;75H3[15;3H[?25h[?25l[15;2H[K[24;75H2[15;2H[?25h[?25l[15;1H[K[24;75H1[15;1H[?25h[?25l[24;73H9,15[19;15H[?25h[?25l[19;14H[K[24;76H4[19;14H[?25h[?25l[19;13H[K[24;76H3[19;13H[?25h[?25l[19;12H[K[24;76H2[19;12H[?25h[?25l[19;11H[K[24;76H1[19;11H[?25h[?25l[19;10H[K[24;76H0[19;10H[?25h[?25l[19;9H[K[24;75H9 [19;9H[?25h[?25l[24;75H8[19;8H[?25h[?25l[19;7H[K[24;75H7[19;7H[?25h[?25l[19;6H[K[24;75H6[19;6H[?25h[?25l[19;5H[K[24;75H5[19;5H[?25h[?25l[19;4H[K[24;75H4[19;4H[?25h[?25l[19;3H[K[24;75H3[19;3H[?25h[?25l[19;2H[K[24;75H2[19;2H[?25h[?25l[19;1H[K[24;75H1[19;1H[?25h[?25l[24;73H6,33[16;33H[?25h[?25l[16;32H[K[16;9H[106m([21C)[m[24;76H2[16;32H[?25h[?25l[16;31H[K[16;9H([18C[106m[[1C][m[24;76H1[16;31H[?25h[?25l[16;30H[K[18;11H[97m[101m;[m[16;28H[[24;76H0[16;30H[?25h[?25l[16;29H[K[24;75H29[16;29H[?25h[?25l[16;28H[K[18;11H;[24;76H8[16;28H[?25h[?25l[16;27H[K[24;76H7[16;27H[?25h[?25l[16;26H[K[24;76H6[16;26H[?25h[?25l[16;25H[K[24;76H5[16;25H[?25h[?25l[16;24H[K[24;76H4[16;24H[?25h[?25l[24;76H3[16;23H[?25h[?25l[16;22H[K[24;76H2[16;22H[?25h[?25l[16;21H[K[18;1H[31m  return 0;
+
+}[m[24;76H1[16;21H[?25h[?25l[16;20H[K[24;76H0[16;20H[?25h[?25l[16;19H[K[24;75H19[16;19H[?25h[?25l[31m%[m[16;18H[K[24;76H8[16;18H[?25h[?25l[16;17H[K[24;76H7[16;17H[?25h[?25l[16;16H[K[24;76H6[16;16H[?25h[?25l[16;15H[K[24;76H5[16;15H[?25h[?25l[16;14H[K[24;76H4[16;14H[?25h[?25l[16;13H[K[24;76H3[16;13H[?25h[?25l[16;12H[K[24;76H2[16;12H[?25h[?25l[16;11H[K[24;76H1[16;11H[?25h[?25l[16;10H[K[18;1H  [38;5;130mreturn[m [1C;
+
+}[24;76H0[16;10H[?25h[?25l[16;9H[K[24;75H9 [16;9H[?25h[?25l[16;8H[K[24;75H8[16;8H[?25h[?25l[16;7H[K[24;75H7[16;7H[?25h[?25l[16;6H[K[24;75H6[16;6H[?25h[?25l[16;5H[K[24;75H5[16;5H[?25h[?25l[16;4H[K[24;75H4[16;4H[?25h[?25l[16;3H[K[24;75H3[16;3H[?25h[?25l[24;75H2[16;2H[?25h[?25l[24;75H1[16;1H[?25h[24;1H[K[16;1H[?25l[24;62H^[[16;1H[24;62H  [16;1H[24;72H16,0-1[8CAll[16;1H[?25h[?25l[24;62H:[16;1H[24;62H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l"hello.c" 20L, 262C written[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t
+[?2004l[?1l>[?25h[?1049l[23;0;0tqxiong1@remote00:~/tmp/lab8/work/lab8$ teil[K[K[Kail -5 hello.c
+
+
+  return 0;
+
+}
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello john use
+hello john
+hello use
+qxiong1@remote00:~/tmp/lab8/work/lab8$  [Kgit commit -a -m 'merge [Kd master'
+[hello-multi de2a6fe] merged master
+ Committer: Qicheng Xiong <qxiong1@cs.binghamton.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git push
+qxiong1@remote.cs.binghamton.edu's password: 
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)   Counting objects:  15% (2/13)   Counting objects:  23% (3/13)   Counting objects:  30% (4/13)   Counting objects:  38% (5/13)   Counting objects:  46% (6/13)   Counting objects:  53% (7/13)   Counting objects:  61% (8/13)   Counting objects:  69% (9/13)   Counting objects:  76% (10/13)   Counting objects:  84% (11/13)   Counting objects:  92% (12/13)   Counting objects: 100% (13/13)   Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 419 bytes | 419.00 KiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+   8da9878..de2a6fe  hello-multi -> hello-multi
+qxiong1@remote00:~/tmp/lab8/work/lab8$ got cjecl[K[K[K[K[K[K[K[Kit checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git merge hello-multi
+Updating b70d53c..de2a6fe
+Fast-forward
+ work/lab8/hello.c | 12 [32m+++++++++[m[31m---[m
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+qxiong1@remote00:~/tmp/lab8/work/lab8$ make
+cc -g -Wall -std=c11    hello.c   -o hello
+qxiong1@remote00:~/tmp/lab8/work/lab8$ ./hello john j[Ks[Kuse
+hello john
+hello use
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git branch -l
+[?1h=  hello-multi[m[m
+* [32mmaster[m[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git shortlog e[Khello.,c[K[Kc
+[?1h=Qicheng Xiong (6):[m
+      working with warnings[m
+      working: clean complie[m
+      send usage message to stderr[m
+      allow greeting multiple names[m
+      added return at end of main()[m
+      merged master[m
+[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git shortlog hello.c[K[K[K[K[K[K[K[K[Kg
+[?1h=Qicheng Xiong (7):[m
+      added README[m
+      working with warnings[m
+      working: clean complie[m
+      send usage message to stderr[m
+      allow greeting multiple names[m
+      added return at end of main()[m
+      merged master[m
+[m
+[K[?1l>qxiong1@remote00:~/tmp/lab8/work/lab8$ git commit -a -m 'merged hello-multi'
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+qxiong1@remote00:~/tmp/lab8/work/lab8$ git push
+qxiong1@remote.cs.binghamton.edu's password: 
+Total 0 (delta 0), reused 0 (delta 0)
+To ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+   b70d53c..de2a6fe  master -> master
+qxiong1@remote00:~/tmp/lab8/work/lab8$ cd ~/i220b/[K
+qxiong1@remote00:~/i220b$ git remote add lab8 \ ssh://qxiong1#[K@binghamt[K[K[K[K[K[K[K[Kremote.cs.binghamton.edu [K/ho me/qxiong1/git-repos/lab8.git
+qxiong1@remote00:~/i220b$ git pull --alow-und[Krelated-histories lab8 master
+error: unknown option `alow-unrelated-histories'
+usage: git pull [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --recurse-submodules[=<on-demand>]
+                          control for recursive fetching of submodules
+
+Options related to merging
+    -r, --rebase[=(false|true|merges|preserve|interactive)]
+                          incorporate changes by rebasing rather than merging
+    -n                    do not show a diffstat at the end of the merge
+    --stat                show a diffstat at the end of the merge
+    --log[=<n>]           add (at most <n>) entries from shortlog to merge commit message
+    --signoff[=...]       add Signed-off-by:
+    --squash              create a single commit instead of doing a merge
+    --commit              perform a commit if the merge succeeds (default)
+    --edit                edit message before committing
+    --ff                  allow fast-forward
+    --ff-only             abort if fast-forward is not possible
+    --verify-signatures   verify that the named commit has a valid GPG signature
+    --autostash           automatically stash/stash pop before and after rebase
+    -s, --strategy <strategy>
+                          merge strategy to use
+    -X, --strategy-option <option=value>
+                          option for selected merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+    --allow-unrelated-histories
+                          allow merging unrelated histories
+
+Options related to fetching
+    --all                 fetch from all remotes
+    -a, --append          append to .git/FETCH_HEAD instead of overwriting
+    --upload-pack <path>  path to upload pack on remote end
+    -f, --force           force overwrite of local branch
+    -t, --tags            fetch all tags and associated objects
+    -p, --prune           prune remote-tracking branches no longer on remote
+    -j, --jobs[=<n>]      number of submodules pulled in parallel
+    --dry-run             dry run
+    -k, --keep            keep downloaded pack
+    --depth <depth>       deepen history of shallow clone
+    --unshallow           convert to a complete repository
+    --update-shallow      accept refs that update .git/shallow
+    --refmap <refmap>     specify fetch refmap
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+qxiong1@remote00:~/i220b$ git pull --alow-unrelated-histories lab8 masterll[K[K[C[C[1@l
+fatal: protocol ' ssh' is not supported
+qxiong1@remote00:~/i220b$ git remote add lab8 \ssh://qxiong1@remote.cs.binghamton.edu/hom e/qxiong1/git-repos/lab8.git
+fatal: remote lab8 already exists.
+qxiong1@remote00:~/i220b$ cd work/lab8
+qxiong1@remote00:~/i220b/work/lab8$ ls
+lab8.log
+qxiong1@remote00:~/i220b/work/lab8$ cd ~/i22o[K0b
+qxiong1@remote00:~/i220b$ ls
+README.md  submit  work
+qxiong1@remote00:~/i220b$ lscd ~/i220bls[Kcd work/lab8git remote add lab8 \ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+fatal: remote lab8 already exists.
+qxiong1@remote00:~/i220b$ git pull lab8 master
+fatal: protocol ' ssh' is not supported
+qxiong1@remote00:~/i220b$ git pull lab8 master[C[C[C[C[C[1@ [1@-[1@-[1@a[1@l[1@l[1@o[1@w[1@-[1@u[1@n[1@r[1@e[1@l[1@a[1@t[1@e[1@d[1@-[1@h[1@i[1@s[1@t[1@o[1@r[1@i[1@e[1@s[C[1@ 
+fatal: protocol ' ssh' is not supported
+qxiong1@remote00:~/i220b$ [Kqxiong1@remote00:~/i220b$ [Kqxiong1@remote00:~/i220b$ [Kqxiong1@remote00:~/i220b$ [Kqxiong1@remote00:~/i220b$ git pull --allow-unrelated-histories  lab8 master
+fatal: protocol ' ssh' is not supported
+qxiong1@remote00:~/i220b$ git pull --allow-unrelated-histories  lab8 master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clab8 master[Kremote add lab8 \ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh://qxiong1@remote.cs.binghamton.edu/home/[1Pqxiong1/git-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+fatal: remote lab8 already exists.
+qxiong1@remote00:~/i220b$ git remoite[K[K[K[Kote -v
+lab8	 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git (fetch)
+lab8	 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git (push)
+origin	git@github.com:qxiong1/i220b.git (fetch)
+origin	git@github.com:qxiong1/i220b.git (push)
+qxiong1@remote00:~/i220b$ git remote -vadd lab8 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git[A[C[C[C[14Ppull --allow-unrelated-histories  lab8 master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: protocol ' ssh' is not supported
+qxiong1@remote00:~/i220b$ git pull --allow-unrelated-histories  lab8 master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote -v[Kadd lab8 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.gitg.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[1P.git[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remot rm la[K[K[K
+git: 'remot' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+qxiong1@remote00:~/i220b$ git remot rm[K[K[K[Kte -v
+lab8	 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git (fetch)
+lab8	 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git (push)
+origin	git@github.com:qxiong1/i220b.git (fetch)
+origin	git@github.com:qxiong1/i220b.git (push)
+qxiong1@remote00:~/i220b$ git remote rm lab8
+qxiong1@remote00:~/i220b$ git remote rm lab8-v[K
+origin	git@github.com:qxiong1/i220b.git (fetch)
+origin	git@github.com:qxiong1/i220b.git (push)
+qxiong1@remote00:~/i220b$ git remote -vrm lab8-v[K[1P rmpull --allow-unrelated-histories  lab8 master[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote -v[Kadd lab8 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git
+qxiong1@remote00:~/i220b$ git remote add lab8 ssh://qxiong1@remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8.git[A[C[C[C[C[C[C[C[C[C[C-v[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm lab8-v[K[1P rmpull --allow-unrelated-histories  lab8 master
+qxiong1@remote.cs.binghamton.edu's password: 
+warning: no common commits
+remote: Enumerating objects: 37, done.[K
+remote: Counting objects:   2% (1/37)   [Kremote: Counting objects:   5% (2/37)   [Kremote: Counting objects:   8% (3/37)   [Kremote: Counting objects:  10% (4/37)   [Kremote: Counting objects:  13% (5/37)   [Kremote: Counting objects:  16% (6/37)   [Kremote: Counting objects:  18% (7/37)   [Kremote: Counting objects:  21% (8/37)   [Kremote: Counting objects:  24% (9/37)   [Kremote: Counting objects:  27% (10/37)   [Kremote: Counting objects:  29% (11/37)   [Kremote: Counting objects:  32% (12/37)   [Kremote: Counting objects:  35% (13/37)   [Kremote: Counting objects:  37% (14/37)   [Kremote: Counting objects:  40% (15/37)   [Kremote: Counting objects:  43% (16/37)   [Kremote: Counting objects:  45% (17/37)   [Kremote: Counting objects:  48% (18/37)   [Kremote: Counting objects:  51% (19/37)   [Kremote: Counting objects:  54% (20/37)   [Kremote: Counting objects:  56% (21/37)   [Kremote: Counting objects:  59% (22/37)   [Kremote: Counting objects:  62% (23/37)   [Kremote: Counting objects:  64% (24/37)   [Kremote: Counting objects:  67% (25/37)   [Kremote: Counting objects:  70% (26/37)   [Kremote: Counting objects:  72% (27/37)   [Kremote: Counting objects:  75% (28/37)   [Kremote: Counting objects:  78% (29/37)   [Kremote: Counting objects:  81% (30/37)   [Kremote: Counting objects:  83% (31/37)   [Kremote: Counting objects:  86% (32/37)   [Kremote: Counting objects:  89% (33/37)   [Kremote: Counting objects:  91% (34/37)   [Kremote: Counting objects:  94% (35/37)   [Kremote: Counting objects:  97% (36/37)   [Kremote: Counting objects: 100% (37/37)   [Kremote: Counting objects: 100% (37/37), done.[K
+remote: Compressing objects:   5% (1/20)   [Kremote: Compressing objects:  10% (2/20)   [Kremote: Compressing objects:  15% (3/20)   [Kremote: Compressing objects:  20% (4/20)   [Kremote: Compressing objects:  25% (5/20)   [Kremote: Compressing objects:  30% (6/20)   [Kremote: Compressing objects:  35% (7/20)   [Kremote: Compressing objects:  40% (8/20)   [Kremote: Compressing objects:  45% (9/20)   [Kremote: Compressing objects:  50% (10/20)   [Kremote: Compressing objects:  55% (11/20)   [Kremote: Compressing objects:  60% (12/20)   [Kremote: Compressing objects:  65% (13/20)   [Kremote: Compressing objects:  70% (14/20)   [Kremote: Compressing objects:  75% (15/20)   [Kremote: Compressing objects:  80% (16/20)   [Kremote: Compressing objects:  85% (17/20)   [Kremote: Compressing objects:  90% (18/20)   [Kremote: Compressing objects:  95% (19/20)   [Kremote: Compressing objects: 100% (20/20)   [Kremote: Compressing objects: 100% (20/20), done.[K
+remote: Total 37 (delta 11), reused 0 (delta 0)[K
+Unpacking objects:   2% (1/37)   Unpacking objects:   5% (2/37)   Unpacking objects:   8% (3/37)   Unpacking objects:  10% (4/37)   Unpacking objects:  13% (5/37)   Unpacking objects:  16% (6/37)   Unpacking objects:  18% (7/37)   Unpacking objects:  21% (8/37)   Unpacking objects:  24% (9/37)   Unpacking objects:  27% (10/37)   Unpacking objects:  29% (11/37)   Unpacking objects:  32% (12/37)   Unpacking objects:  35% (13/37)   Unpacking objects:  37% (14/37)   Unpacking objects:  40% (15/37)   Unpacking objects:  43% (16/37)   Unpacking objects:  45% (17/37)   Unpacking objects:  48% (18/37)   Unpacking objects:  51% (19/37)   Unpacking objects:  54% (20/37)   Unpacking objects:  56% (21/37)   Unpacking objects:  59% (22/37)   Unpacking objects:  62% (23/37)   Unpacking objects:  64% (24/37)   Unpacking objects:  67% (25/37)   Unpacking objects:  70% (26/37)   Unpacking objects:  72% (27/37)   Unpacking objects:  75% (28/37)   Unpacking objects:  78% (29/37)   Unpacking objects:  81% (30/37)   Unpacking objects:  83% (31/37)   Unpacking objects:  86% (32/37)   Unpacking objects:  89% (33/37)   Unpacking objects:  91% (34/37)   Unpacking objects:  94% (35/37)   Unpacking objects:  97% (36/37)   Unpacking objects: 100% (37/37)   Unpacking objects: 100% (37/37), done.
+From ssh://remote.cs.binghamton.edu/home/qxiong1/git-repos/lab8
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> lab8/master
+hint: Waiting for your editor to close the file... [?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[25;1H"~/git-repos/i220b/.git/MERGE_MSG" 7L, 311C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[38;5;130mMerge branch 'master' of ssh://remote.cs.binghamto[mn.edu/home/qxiong1/git-repos/lab8
+
+[34m# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.[m
+[94m~                                                                                        [9;1H~                                                                                        [10;1H~                                                                                        [11;1H~                                                                                        [12;1H~                                                                                        [13;1H~                                                                                        [14;1H~                                                                                        [15;1H~                                                                                        [16;1H~                                                                                        [17;1H~                                                                                        [18;1H~                                                                                        [19;1H~                                                                                        [20;1H~                                                                                        [21;1H~                                                                                        [22;1H~                                                                                        [23;1H~                                                                                        [24;1H~                                                                                        [m[25;72H1,1[11CAll[1;1H[?25h[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[1;24r[1;1H[3M[1;25r[22;1H[94m~                                                                                        [23;1H~                                                                                        [24;1H~                                                                                        [m[25;1H[K[25;72H7,1[11CBot[4;1H[?25h[?25l[1;24r[1;1H[3M[1;25r[22;1H[94m~                                                                                        [23;1H~                                                                                        [24;1H~                                                                                        [m[25;72H[K[25;72H7,1[11CBot[1;1H[?25h[?25l[?25h[?25l[1;24r[1;1H[3L[1;25r[1;1H[34m# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts[m[25;72H[K[25;72H7,1[11CBot[4;1H[?25h[?25l[1;24r[1;1H[3L[1;25r[1;1H[38;5;130mMerge branch 'master' of ssh://remote.cs.binghamto[mn.edu/home/qxiong1/git-repos/lab8
+
+[34m# Please enter a commit message to explain why this merge is necessary,[m[25;72H[K[25;72H7,1[11CAll[7;1H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[25;62H^[[7;1H[25;62H  [7;1H[25;62H^[[7;1H[25;62H  [7;1H[?25h[?25l[25;62H:[7;1H[25;62H[K[25;1H:[?2004h[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l[23;2t[23;1t[22;2t[22;1t[23;2t[23;1t[25;1H[K[25;1H[?2004l[?1l>[?25h[?1049l[23;0;0t[KMerge made by the 'recursive' strategy.
+ work/lab8/.gitignore |  3 [32m+++[m
+ work/lab8/Makefile   | 10 [32m++++++++++[m
+ work/lab8/README.md  |  4 [32m++++[m
+ work/lab8/hello.c    | 20 [32m++++++++++++++++++++[m
+ 4 files changed, 37 insertions(+)
+ create mode 100644 work/lab8/.gitignore
+ create mode 100644 work/lab8/Makefile
+ create mode 100644 work/lab8/README.md
+ create mode 100644 work/lab8/hello.c
+qxiong1@remote00:~/i220b$ cd work.[K/lab7[K[K[K[K[K[K[K[K[K~[Ki2209[Kb/work/lab8
+bash: cd: i220b/work/lab8: No such file or directory
+qxiong1@remote00:~/i220b$ ls
+README.md  submit  work
+qxiong1@remote00:~/i220b$ cd owk[K[K[Kwork
+qxiong1@remote00:~/i220b/work$ ls
+lab8  prj2-sol
+qxiong1@remote00:~/i220b/work$ l[Kcd lab8
+qxiong1@remote00:~/i220b/work/lab8$ ls
+hello.c  lab8.log  Makefile  README.md
+qxiong1@remote00:~/i220b/work/lab8$ git log hello.c
+[?1h=[33mcommit de2a6fec416041201d3f608d75cee3e60c947fad[m[33m ([m[1;31mlab8/master[m[33m)[m[m
+Merge: 8da9878 b70d53c[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:46:00 2019 -0400[m
+[m
+    merged master[m
+[m
+[33mcommit b70d53c6da9d114d3dd3eaf6084212567d30b5a4[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:43:28 2019 -0400[m
+[m
+    added return at end of main()[m
+[m
+[33mcommit 8da9878c8c5532b8a3a9b8195d99f6dd740d2d71[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:36:11 2019 -0400[m
+[m
+    allow greeting multiple names[m
+[m
+[33mcommit 13f2dc9074710548445d264ac249ceb6f1bea315[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:32:47 2019 -0400[m
+[m
+    send usage message to stderr[m
+:[K[K[m
+[33mcommit 091e6cb24a96e8e8c318ade6f84b97115507ada6[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:27:54 2019 -0400[m
+[m
+    working: clean complie[m
+[m
+[33mcommit 5b1b419e3d75f348caf7758376205c5fe231e247[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:25:20 2019 -0400[m
+[m
+    working with warnings[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KESCESC[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[H[2J[H[m
+[33mcommit 8da9878c8c5532b8a3a9b8195d99f6dd740d2d71[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:36:11 2019 -0400[m
+[m
+    allow greeting multiple names[m
+[m
+[33mcommit 13f2dc9074710548445d264ac249ceb6f1bea315[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:32:47 2019 -0400[m
+[m
+:[K[K:[K[K:[K[H[2J[H[m
+[33mcommit 8da9878c8c5532b8a3a9b8195d99f6dd740d2d71[m[m
+Author: Qicheng Xiong <qxiong1@cs.binghamton.edu>[m
+Date:   Thu Oct 10 15:36:11 2019 -0400[m
+:[K[K:[K[K[?1l>
+qxiong1@remote00:~/i220b/work/lab8$ exit
+exit
+
+Script done on 2019-10-10 16:03:04-04:00 [COMMAND_EXIT_CODE="130"]
