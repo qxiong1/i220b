@@ -1,0 +1,12 @@
+Exercise 1:
+1. ls *\$*
+2. ls *\'*
+3. ls *\\*
+4. ls -- ??
+
+Exercise 5:
+grep -i 'MAIN(' `find ~/cs220/projects -name '*.[ch]'` | wc -l
+
+
+Exercise 6:
+sleep 5 && echo 123 &

@@ -1,0 +1,2964 @@
+Script started on 2019-11-07 15:08:27-05:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="80" LINES="24"]
+qxiong1@remote05:~/i220b/work/lab12$ cd ..
+qxiong1@remote05:~/i220b/work$ cd q[K[K[Kls
+bash: cls: command not found
+qxiong1@remote05:~/i220b/work$ c[Kls
+bomb78	bomb78.tar  lab10  lab12  prj2-sol
+qxiong1@remote05:~/i220b/work$ cd lab12
+qxiong1@remote05:~/i220b/work/lab12$ cd[K[Kcd quote-files/
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo /[K\\
+\
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \'
+'
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \*
+*
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \$h[KHOME\'[K:[K"\\
+$HOME"\
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo '\'
+\
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \[K'\\'
+\\
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo '*$~'
+*$~
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo '\''
+> '
+\
+
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo "\\[K"\\"
+"\
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ "$HOME"
+bash: /home/qxiong1: Is a directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ "$HOME"
+bash: /home/qxiong1: Is a directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo "$HOME"e"$HOME"c"$HOME"h"$HOME"o"$HOME" "$HOME"
+/home/qxiong1
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \
+> abc \
+> 123
+abc 123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \
+> abc \
+> abc \
+> 123 \
+> 123
+abc abc 123 123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls []$][C[K[K[K[K-l
+bash: ls-l: command not found
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls -a
+'**'   .   ..  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"   -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ls -l
+total 0
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05  -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls [$]*.txt
+ls: cannot access '[$]*.txt': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls [$]*.txt[C[C[C[C[C[C[K[K[K[K[K[K[K[K$*
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls $$[K[K\%$[K[K%[K$*
+ls: cannot access '$*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls \$*[K
+ls: cannot access '$': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls \$[1P$[C*
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls &[K$?
+ls: cannot access '0': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls $.?
+ls: cannot access '$.?': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ls [$]
+ls: cannot access '[$]': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls []$][C*
+ls: cannot access '[$]*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls [t-v]*.c
+ls: cannot access '[t-v]*.c': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls T*
+ls: cannot access 'T*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ l
+bash: l: command not found
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls []\]$][C*
+ls: cannot access '[$]*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls [\$]*[1P$]*
+ls: cannot access '[$]*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls [$]*\[$]*
+ls: cannot access '[$]*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls abc*
+ls: cannot access 'abc*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *abc*
+ls: cannot access '*abc*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *abc
+ls: cannot access '*abc': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls $*
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls [t-v]*.c
+ls: cannot access '[t-v]*.c': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls $*
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls $*\$*[C[C*\$*
+'1$2'  'a$b'
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *[K[K[K[Kecho '
+> 
+> s
+> s
+> s \
+> s
+> s\^C
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \'
+'
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ e[Kls *\')[K*
+"'12"  "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo \\
+\
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *\\*
+'\\ab'
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *??*
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls **?* *?*
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ;[Kls *?*
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls[K[Kls *[K??
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ l[Kls
+'**'  '1$2'  "'12"  '1"2'  'a$b'  '\\ab'  'a"b'  "a'b"	 -l
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ lsclear[K[K[K[K[K[K[Kclear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *? *?
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ls --?
+ls: unrecognized option '--?'
+Try 'ls --help' for more information.
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls ?
+ls: cannot access '?': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls ?*
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *?*
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls *--?*
+ls: cannot access '*--?*': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ ls ""?"?"
+ls: cannot access '??': No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ ls **?*?*
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '**'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1$2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "'12"
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '1"2'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a$b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 '\\ab'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 'a"b'
+-rw-r----- 1 qxiong1 qxiong1 0 Nov  7 15:05 "a'b"
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ l[Kcleare
+bash: cleare: command not found
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ env
+SHELL=/bin/bash
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+KRB5CCNAME=FILE:/tmp/krb5cc_13965_W3PW1WDUO3
+PWD=/home/qxiong1/i220b/work/lab12/quote-files
+LOGNAME=qxiong1
+XDG_SESSION_TYPE=tty
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/qxiong1
+LANG=en_US.UTF-8
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+SSH_CONNECTION=128.226.119.250 55604 128.226.114.205 22
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=qxiong1
+SHLVL=2
+XDG_SESSION_ID=100967
+XDG_RUNTIME_DIR=/run/user/13965
+SSH_CLIENT=128.226.119.250 55604 22
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/13965/bus
+MAIL=/var/mail/qxiong1
+SSH_TTY=/dev/pts/14
+OLDPWD=/home/qxiong1/i220b/work/lab12
+_=/usr/bin/env
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo &[K$HOME
+/home/qxiong1
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ echo %[K[K $ho[K[KHOME
+/home/qxiong1
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo $home
+
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ 
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo $HOME
+/home/qxiong1
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo #[K$PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ cdecho $xxx
+bash: cdecho: command not found
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ xxx = [K[K[K==[K123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ echo %[K$xxx
+123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ export x=456
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env | grep xxx
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ e[Kexport xxx
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env |g[K grep xx
+xxx=123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env | grep xxx
+xxx=123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env | grep xxx[K[K
+PWD=/home/qxiong1/i220b/work/lab12/quote-files
+LOGNAME=qxiong1
+xxx=123
+x=456
+HOME=/home/qxiong1
+TERM=xterm-256color
+USER=qxiong1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/13965/bus
+MAIL=/var/mail/qxiong1
+OLDPWD=/home/qxiong1/i220b/work/lab12
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env | grep xxxx
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env | grep xxxx[K[K
+xxx=123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env | grep xxx
+xxx=123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ export xx = 456
+bash: export: `=': not a valid identifier
+bash: export: `456': not a valid identifier
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ export xx = 456[1P456[1P=456
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env grep[K[K[K[K[K | grep xx
+xxx=123
+xx=456
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ env | grep xxx
+xxx=123
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ clear
+[H[2J[3Jqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c'
+find: ‘L’: No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c'[C[C[C[C[C[C[C[C[C[C |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' |[Kqxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' | wc -l
+find: ‘L’: No such file or directory
+0
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -name '*.c' | wc -l[C[1P[1P[1P[1P[1P[1P
+find: ‘L’: No such file or directory
+find: ‘*.c’: No such file or directory
+1
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 '*.c' | wc -l[1@-[1@f[1P[1@h[1@o[1@m[1@e[1@ 
+find: unknown predicate `-home'
+0
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ find \L ~/cs220 -home '*.c' | wc -l[1P[1P[1P[1P[1P[1P[C
+find: ‘L’: No such file or directory
+find: ‘*.c’: No such file or directory
+1
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ find / -name '*.c' 2>dev/null
+bash: dev/null: No such file or directory
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ find / -name '*.c' 2>dev/null[K[K[K[K[K[K[K[K[K[K[K[K'
+^C
+qxiong1@remote05:~/i220b/work/lab12/quote-files$ find / -name '*.c'
+find: ‘/backup/cquelle3’: Permission denied
+find: ‘/backup/fscott1’: Permission denied
+find: ‘/backup/jawayan1’: Permission denied
+find: ‘/backup/aambilw1’: Permission denied
+find: ‘/backup/aamer’: Permission denied
+find: ‘/backup/jcen3’: Permission denied
+find: ‘/backup/abalan’: Permission denied
+find: ‘/backup/ggonzal9’: Permission denied
+find: ‘/backup/jchassi1’: Permission denied
+find: ‘/backup/abet’: Permission denied
+find: ‘/backup/abetrev’: Permission denied
+find: ‘/backup/abettest’: Permission denied
+find: ‘/backup/aaharon1’: Permission denied
+find: ‘/backup/acheseb1’: Permission denied
+find: ‘/backup/alee870’: Permission denied
+find: ‘/backup/astensl1’: Permission denied
+find: ‘/backup/bklayma1’: Permission denied
+find: ‘/backup/cwickiz1’: Permission denied
+find: ‘/backup/gmore3’: Permission denied
+find: ‘/backup/jchen441’: Permission denied
+find: ‘/backup/acanino1’: Permission denied
+find: ‘/backup/aclancy1’: Permission denied
+find: ‘/backup/alee889’: Permission denied
+find: ‘/backup/atran5’: Permission denied
+find: ‘/backup/blee75’: Permission denied
+find: ‘/backup/czhao40’: Permission denied
+find: ‘/backup/gregala1’: Permission denied
+find: ‘/backup/jdaley2’: Permission denied
+find: ‘/backup/acmweb’: Permission denied
+find: ‘/backup/amadnic2’: Permission denied
+find: ‘/backup/ayadav5’: Permission denied
+find: ‘/backup/blu20’: Permission denied
+find: ‘/backup/cchen163’: Permission denied
+find: ‘/backup/dwalcot1’: Permission denied
+find: ‘/backup/hyingbo1’: Permission denied
+find: ‘/backup/admread’: Permission denied
+find: ‘/backup/adnan’: Permission denied
+find: ‘/backup/bpreise1’: Permission denied
+find: ‘/backup/ddhuri1’: Permission denied
+find: ‘/backup/gselcuk1’: Permission denied
+find: ‘/backup/jdelpoz2’: Permission denied
+find: ‘/backup/aevans1’: Permission denied
+find: ‘/backup/dmaisur1’: Permission denied
+find: ‘/backup/gyolac1’: Permission denied
+find: ‘/backup/jhart3’: Permission denied
+find: ‘/backup/afuchs1’: Permission denied
+find: ‘/backup/jjacob44’: Permission denied
+find: ‘/backup/agarcia3’: Permission denied
+find: ‘/backup/agarcia4’: Permission denied
+find: ‘/backup/maltinb1’: Permission denied
+find: ‘/backup/nakalin2’: Permission denied
+find: ‘/backup/osaglam1’: Permission denied
+find: ‘/backup/serkan1’: Permission denied
+find: ‘/backup/aabrey1’: Permission denied
+find: ‘/backup/aaruj1’: Permission denied
+find: ‘/backup/adilliw1’: Permission denied
+find: ‘/backup/amahaja4’: Permission denied
+find: ‘/backup/ayucel3’: Permission denied
+find: ‘/backup/brose7’: Permission denied
+find: ‘/backup/dmeisel1’: Permission denied
+find: ‘/backup/hahuja1’: Permission denied
+find: ‘/backup/jkim534’: Permission denied
+find: ‘/backup/ajasper’: Permission denied
+find: ‘/backup/hburkha1’: Permission denied
+find: ‘/backup/jkimbel1’: Permission denied
+find: ‘/backup/ajoshi’: Permission denied
+find: ‘/backup/ajoshi1’: Permission denied
+find: ‘/backup/btoledo1’: Permission denied
+find: ‘/backup/dnair3’: Permission denied
+find: ‘/backup/hgavas1’: Permission denied
+find: ‘/backup/jmitche6’: Permission denied
+find: ‘/backup/akannal’: Permission denied
+find: ‘/backup/akhaitan’: Permission denied
+find: ‘/backup/afarrel3’: Permission denied
+find: ‘/backup/amchugh2’: Permission denied
+find: ‘/backup/azaccag1’: Permission denied
+find: ‘/backup/byan2’: Permission denied
+find: ‘/backup/cjian1’: Permission denied
+find: ‘/backup/dzhang46’: Permission denied
+find: ‘/backup/igrossm2’: Permission denied
+find: ‘/backup/akulkarn’: Permission denied
+find: ‘/backup/anaik4’: Permission denied
+find: ‘/backup/bak1’: Permission denied
+find: ‘/backup/bhardin2’: Permission denied
+find: ‘/backup/cjiang21’: Permission denied
+find: ‘/backup/ecakir1’: Permission denied
+find: ‘/backup/isarfat1’: Permission denied
+find: ‘/backup/alin’: Permission denied
+find: ‘/backup/agujara1’: Permission denied
+find: ‘/backup/asharm47’: Permission denied
+find: ‘/backup/bhogan9’: Permission denied
+find: ‘/backup/cmcborr1’: Permission denied
+find: ‘/backup/efranci6’: Permission denied
+find: ‘/backup/jabbott3’: Permission denied
+find: ‘/backup/amanucha’: Permission denied
+find: ‘/backup/jmohrma1’: Permission denied
+find: ‘/backup/ameya’: Permission denied
+find: ‘/backup/jmontgo4’: Permission denied
+find: ‘/backup/amol’: Permission denied
+find: ‘/backup/dnarasi1’: Permission denied
+find: ‘/backup/hmense1’: Permission denied
+find: ‘/backup/jmontgo5’: Permission denied
+find: ‘/backup/anair’: Permission denied
+find: ‘/backup/aneeman’: Permission denied
+find: ‘/backup/aneesh’: Permission denied
+find: ‘/backup/jpark349’: Permission denied
+find: ‘/backup/ankit’: Permission denied
+find: ‘/backup/jphilem1’: Permission denied
+find: ‘/backup/anumeh’: Permission denied
+find: ‘/backup/apatel’: Permission denied
+find: ‘/backup/hnikam1’: Permission denied
+find: ‘/backup/jramli1’: Permission denied
+find: ‘/backup/apatvar’: Permission denied
+find: ‘/backup/apawar’: Permission denied
+find: ‘/backup/hrode1’: Permission denied
+find: ‘/backup/jren18’: Permission denied
+find: ‘/backup/aphalak’: Permission denied
+find: ‘/backup/apichat’: Permission denied
+find: ‘/backup/kozata1’: Permission denied
+find: ‘/backup/blackburn’: Permission denied
+find: ‘/backup/mkardan1’: Permission denied
+find: ‘/backup/oisvard1’: Permission denied
+find: ‘/backup/rertem1’: Permission denied
+find: ‘/backup/ycangiz1’: Permission denied
+find: ‘/backup/aagraw11’: Permission denied
+find: ‘/backup/achen172’: Permission denied
+find: ‘/backup/akavana1’: Permission denied
+find: ‘/backup/ashiral1’: Permission denied
+find: ‘/backup/bkeuria1’: Permission denied
+find: ‘/backup/cnizenj1’: Permission denied
+find: ‘/backup/epalani1’: Permission denied
+find: ‘/backup/jalbert5’: Permission denied
+find: ‘/backup/aselvan1’: Permission denied
+find: ‘/backup/abhatna1’: Permission denied
+find: ‘/backup/ageorg39’: Permission denied
+find: ‘/backup/apadman1’: Permission denied
+find: ‘/backup/balandi1’: Permission denied
+find: ‘/backup/bzhang73’: Permission denied
+find: ‘/backup/dryan6’: Permission denied
+find: ‘/backup/hsahin2’: Permission denied
+find: ‘/backup/jricha19’: Permission denied
+find: ‘/backup/ashukla’: Permission denied
+find: ‘/backup/jrising1’: Permission denied
+find: ‘/backup/lcanale2’: Permission denied
+find: ‘/backup/mavciog1’: Permission denied
+find: ‘/backup/odogan1’: Permission denied
+find: ‘/backup/otilki1’: Permission denied
+find: ‘/backup/skirogl1’: Permission denied
+find: ‘/backup/yokutan1’: Permission denied
+find: ‘/backup/achavan4’: Permission denied
+find: ‘/backup/agjonba1’: Permission denied
+find: ‘/backup/aparand1’: Permission denied
+find: ‘/backup/bchen111’: Permission denied
+find: ‘/backup/cbartol1’: Permission denied
+find: ‘/backup/dtimmer1’: Permission denied
+find: ‘/backup/hwu71’: Permission denied
+find: ‘/backup/jsanch49’: Permission denied
+find: ‘/backup/atulp’: Permission denied
+find: ‘/backup/bbeeral1’: Permission denied
+find: ‘/backup/cayachi1’: Permission denied
+find: ‘/backup/dthatch1’: Permission denied
+find: ‘/backup/hsloan1’: Permission denied
+find: ‘/backup/jshaikh1’: Permission denied
+find: ‘/backup/avinan’: Permission denied
+find: ‘/backup/avirga1’: Permission denied
+find: ‘/backup/aviswan3’: Permission denied
+find: ‘/backup/hwang161’: Permission denied
+find: ‘/backup/jstruck1’: Permission denied
+find: ‘/backup/aworm1’: Permission denied
+find: ‘/backup/fceltik1’: Permission denied
+find: ‘/backup/jarnold5’: Permission denied
+find: ‘/backup/ayurkiv’: Permission denied
+find: ‘/backup/azaidi’: Permission denied
+find: ‘/backup/samiri1’: Permission denied
+find: ‘/backup/alal2’: Permission denied
+find: ‘/backup/balaji’: Permission denied
+find: ‘/backup/baltar’: Permission denied
+find: ‘/backup/rchen102’: Permission denied
+find: ‘/backup/sdhanek1’: Permission denied
+find: ‘/backup/bbarjes1’: Permission denied
+find: ‘/backup/mmehmed1’: Permission denied
+find: ‘/backup/pcosta2’: Permission denied
+find: ‘/backup/rimai1’: Permission denied
+find: ‘/backup/sdoski1’: Permission denied
+find: ‘/backup/bchogle’: Permission denied
+find: ‘/backup/ksingh42’: Permission denied
+find: ‘/backup/malam29’: Permission denied
+find: ‘/backup/mmurph37’: Permission denied
+find: ‘/backup/pdistef1’: Permission denied
+find: ‘/backup/rlotlik1’: Permission denied
+find: ‘/backup/sgokarn1’: Permission denied
+find: ‘/backup/beaumont’: Permission denied
+find: ‘/backup/pkulkar3’: Permission denied
+find: ‘/backup/aakin1’: Permission denied
+find: ‘/backup/sgupta38’: Permission denied
+find: ‘/backup/bgandhi’: Permission denied
+find: ‘/backup/sjain13’: Permission denied
+find: ‘/backup/bharathi’: Permission denied
+find: ‘/backup/skadiri1’: Permission denied
+find: ‘/backup/bheda’: Permission denied
+find: ‘/backup/mbradsh3’: Permission denied
+find: ‘/backup/mroshid1’: Permission denied
+find: ‘/backup/pparekh1’: Permission denied
+find: ‘/backup/rmarvin1’: Permission denied
+find: ‘/backup/skaldat1’: Permission denied
+find: ‘/backup/bkravitz’: Permission denied
+find: ‘/backup/slellis1’: Permission denied
+find: ‘/backup/blong’: Permission denied
+find: ‘/backup/kgulve1’: Permission denied
+find: ‘/backup/knajan1’: Permission denied
+find: ‘/backup/lkendal1’: Permission denied
+find: ‘/backup/mghosal1’: Permission denied
+find: ‘/backup/ngarg3’: Permission denied
+find: ‘/backup/pshang1’: Permission denied
+find: ‘/backup/saswani1’: Permission denied
+find: ‘/backup/xpeng’: Permission denied
+find: ‘/backup/bpehliv1’: Permission denied
+find: ‘/backup/bpoliks’: Permission denied
+find: ‘/backup/rpena9’: Permission denied
+find: ‘/backup/slnu1’: Permission denied
+find: ‘/backup/brathke1’: Permission denied
+find: ‘/backup/brobergj’: Permission denied
+find: ‘/backup/brood’: Permission denied
+find: ‘/backup/sminnam1’: Permission denied
+find: ‘/backup/bsendir1’: Permission denied
+find: ‘/backup/bsonenb1’: Permission denied
+find: ‘/backup/snatu1’: Permission denied
+find: ‘/backup/btaylor1’: Permission denied
+find: ‘/backup/btev’: Permission denied
+find: ‘/backup/mchoi39’: Permission denied
+find: ‘/backup/mtankal1’: Permission denied
+find: ‘/backup/pparmar2’: Permission denied
+find: ‘/backup/rrausha1’: Permission denied
+find: ‘/backup/spradha1’: Permission denied
+find: ‘/backup/bwang2’: Permission denied
+find: ‘/backup/rshahul1’: Permission denied
+find: ‘/backup/srapell2’: Permission denied
+find: ‘/backup/bzee1’: Permission denied
+find: ‘/backup/ssalick1’: Permission denied
+find: ‘/backup/cadathlon’: Permission denied
+find: ‘/backup/ssamate1’: Permission denied
+find: ‘/backup/capsweb’: Permission denied
+find: ‘/backup/mdobies1’: Permission denied
+find: ‘/backup/mweb’: Permission denied
+find: ‘/backup/nguler1’: Permission denied
+find: ‘/backup/pweb’: Permission denied
+find: ‘/backup/sazarae1’: Permission denied
+find: ‘/backup/yjun1’: Permission denied
+find: ‘/backup/cbond2’: Permission denied
+find: ‘/backup/mwerner7’: Permission denied
+find: ‘/backup/ppatel85’: Permission denied
+find: ‘/backup/rthaiva1’: Permission denied
+find: ‘/backup/ssankhe1’: Permission denied
+find: ‘/backup/cchen17’: Permission denied
+find: ‘/backup/cchen8’: Permission denied
+find: ‘/backup/cchiauz1’: Permission denied
+find: ‘/backup/ssarems1’: Permission denied
+find: ‘/backup/cdf’: Permission denied
+find: ‘/backup/jszacha1’: Permission denied
+find: ‘/backup/jtucker7’: Permission denied
+find: ‘/backup/jweng8’: Permission denied
+find: ‘/backup/katasoy1’: Permission denied
+find: ‘/backup/kgurses1’: Permission denied
+find: ‘/backup/kpathak1’: Permission denied
+find: ‘/backup/lmanwan1’: Permission denied
+find: ‘/backup/mkrauze1’: Permission denied
+find: ‘/backup/nkokne1’: Permission denied
+find: ‘/backup/qaixinj1’: Permission denied
+find: ‘/backup/schinch1’: Permission denied
+find: ‘/backup/cgandhi1’: Permission denied
+find: ‘/backup/cgupta’: Permission denied
+find: ‘/backup/ssaxena3’: Permission denied
+find: ‘/backup/chanusa’: Permission denied
+find: ‘/backup/zge3’: Permission denied
+find: ‘/backup/chao’: Permission denied
+find: ‘/backup/myip3’: Permission denied
+find: ‘/backup/npelleg1’: Permission denied
+find: ‘/backup/qjia4’: Permission denied
+find: ‘/backup/sbankar1’: Permission denied
+find: ‘/backup/hfu11’: Permission denied
+find: ‘/backup/ciweb’: Permission denied
+find: ‘/backup/kgiampo1’: Permission denied
+find: ‘/backup/kna3’: Permission denied
+find: ‘/backup/kphill11’: Permission denied
+find: ‘/backup/lsunny1’: Permission denied
+find: ‘/backup/mkundak1’: Permission denied
+find: ‘/backup/nraj1’: Permission denied
+find: ‘/backup/pshaury1’: Permission denied
+find: ‘/backup/sbaptis2’: Permission denied
+find: ‘/backup/ss1’: Permission denied
+find: ‘/backup/cli22’: Permission denied
+find: ‘/backup/sshin’: Permission denied
+find: ‘/backup/clin18’: Permission denied
+find: ‘/backup/mzheng47’: Permission denied
+find: ‘/backup/pqi1’: Permission denied
+find: ‘/backup/rambast1’: Permission denied
+find: ‘/backup/sdesai9’: Permission denied
+find: ‘/backup/cmoore2’: Permission denied
+find: ‘/backup/psahu1’: Permission denied
+find: ‘/backup/rzaveri1’: Permission denied
+find: ‘/backup/ssultan6’: Permission denied
+find: ‘/backup/colinb’: Permission denied
+find: ‘/backup/sahire1’: Permission denied
+find: ‘/backup/stammis1’: Permission denied
+find: ‘/backup/cpandit1’: Permission denied
+find: ‘/backup/cpatel’: Permission denied
+find: ‘/backup/jwong123’: Permission denied
+find: ‘/backup/kgoel1’: Permission denied
+find: ‘/backup/knadeem1’: Permission denied
+find: ‘/backup/lcoats1’: Permission denied
+find: ‘/backup/mgadi1’: Permission denied
+find: ‘/backup/nbi1’: Permission denied
+find: ‘/backup/nsharm11’: Permission denied
+find: ‘/backup/rbey1’: Permission denied
+find: ‘/backup/sbhonde1’: Permission denied
+find: ‘/backup/tfan4’: Permission denied
+find: ‘/backup/csabet01_oc’: Permission denied
+find: ‘/backup/csabet02_oc’: Permission denied
+find: ‘/backup/csabet03_oc’: Permission denied
+find: ‘/backup/kdamodh1’: Permission denied
+find: ‘/backup/kjones47’: Permission denied
+find: ‘/backup/ksingh35’: Permission denied
+find: ‘/backup/lxu31’: Permission denied
+find: ‘/backup/mjones46’: Permission denied
+find: ‘/backup/ngoyal1’: Permission denied
+find: ‘/backup/psilves1’: Permission denied
+find: ‘/backup/sbilen1’: Permission denied
+find: ‘/backup/cguo9’: Permission denied
+find: ‘/backup/csweb’: Permission denied
+find: ‘/backup/maguila2’: Permission denied
+find: ‘/backup/mlin71’: Permission denied
+find: ‘/backup/nxu4’: Permission denied
+find: ‘/backup/psingh43’: Permission denied
+find: ‘/backup/sboggar1’: Permission denied
+find: ‘/backup/btas1’: Permission denied
+find: ‘/backup/cutler’: Permission denied
+find: ‘/backup/ngreene5’: Permission denied
+find: ‘/backup/pthakka4’: Permission denied
+find: ‘/backup/scao16’: Permission denied
+find: ‘/backup/hjia3’: Permission denied
+find: ‘/backup/cwong11’: Permission denied
+find: ‘/backup/mmadhan1’: Permission denied
+find: ‘/backup/ohatwal1’: Permission denied
+find: ‘/backup/rblazej1’: Permission denied
+find: ‘/backup/sdhanas1’: Permission denied
+find: ‘/backup/dagrawal’: Permission denied
+find: ‘/backup/ptilley1’: Permission denied
+find: ‘/backup/schaud16’: Permission denied
+find: ‘/backup/hlum1’: Permission denied
+find: ‘/backup/davidl’: Permission denied
+find: ‘/backup/kcox4’: Permission denied
+find: ‘/backup/dbalkan’: Permission denied
+find: ‘/backup/dbenamy1’: Permission denied
+find: ‘/backup/vkatrag2’: Permission denied
+find: ‘/backup/ychen415’: Permission denied
+find: ‘/backup/ntinen’: Permission denied
+find: ‘/backup/jthakka1’: Permission denied
+find: ‘/backup/pwang22’: Permission denied
+find: ‘/backup/dcurren’: Permission denied
+find: ‘/backup/tsharma6’: Permission denied
+find: ‘/backup/ubasol1’: Permission denied
+find: ‘/backup/vparekh1’: Permission denied
+find: ‘/backup/yjadhav1’: Permission denied
+find: ‘/backup/akadu1’: Permission denied
+find: ‘/backup/jtricoz1’: Permission denied
+find: ‘/backup/rcheung5’: Permission denied
+find: ‘/backup/ddutta’: Permission denied
+find: ‘/backup/devendran’: Permission denied
+find: ‘/backup/vragovs1’: Permission denied
+find: ‘/backup/yjagdal1’: Permission denied
+find: ‘/backup/arayala1’: Permission denied
+find: ‘/backup/jwhitak4’: Permission denied
+find: ‘/backup/reswara1’: Permission denied
+find: ‘/backup/dfitzge3’: Permission denied
+find: ‘/backup/ylin153’: Permission denied
+find: ‘/backup/arohill1’: Permission denied
+find: ‘/backup/jyoon46’: Permission denied
+find: ‘/backup/rquinli1’: Permission denied
+find: ‘/backup/dgordon’: Permission denied
+find: ‘/backup/bdobriy1’: Permission denied
+find: ‘/backup/kagyapo1’: Permission denied
+find: ‘/backup/rrichte1’: Permission denied
+find: ‘/backup/dickman’: Permission denied
+find: ‘/backup/sblack3’: Permission denied
+find: ‘/backup/dima’: Permission denied
+find: ‘/backup/djagtap1’: Permission denied
+find: ‘/backup/djhender’: Permission denied
+find: ‘/backup/jdeflor1’: Permission denied
+find: ‘/backup/msyed3’: Permission denied
+find: ‘/backup/kwan2’: Permission denied
+find: ‘/backup/dkim17’: Permission denied
+find: ‘/backup/dkshin’: Permission denied
+find: ‘/backup/whuebne1’: Permission denied
+find: ‘/backup/yliu377’: Permission denied
+find: ‘/backup/blewis9’: Permission denied
+find: ‘/backup/kcitlak1’: Permission denied
+find: ‘/backup/sbohn1’: Permission denied
+find: ‘/backup/dlundgren’: Permission denied
+find: ‘/backup/udemir1’: Permission denied
+find: ‘/backup/wkenned1’: Permission denied
+find: ‘/backup/ypan13’: Permission denied
+find: ‘/backup/eaghaja1’: Permission denied
+find: ‘/backup/kgell1’: Permission denied
+find: ‘/backup/sgrimm2’: Permission denied
+find: ‘/backup/dmendel1’: Permission denied
+find: ‘/backup/skonath1’: Permission denied
+find: ‘/backup/dmrsic1’: Permission denied
+find: ‘/backup/dnapoli1’: Permission denied
+find: ‘/backup/khill9’: Permission denied
+find: ‘/backup/slin100’: Permission denied
+find: ‘/backup/doran’: Permission denied
+find: ‘/backup/srally1’: Permission denied
+find: ‘/backup/dpatel’: Permission denied
+find: ‘/backup/xwang247’: Permission denied
+find: ‘/backup/zli192’: Permission denied
+find: ‘/backup/jhuyghu1’: Permission denied
+find: ‘/backup/mzhan102’: Permission denied
+find: ‘/backup/plnu2’: Permission denied
+find: ‘/backup/drew’: Permission denied
+find: ‘/backup/ssing117’: Permission denied
+find: ‘/backup/drseuss’: Permission denied
+find: ‘/backup/dscoff’: Permission denied
+find: ‘/backup/ssnell1’: Permission denied
+find: ‘/backup/dshah’: Permission denied
+find: ‘/backup/wzhangc1’: Permission denied
+find: ‘/backup/ypatel9’: Permission denied
+find: ‘/backup/ebreban1’: Permission denied
+find: ‘/backup/ksaini1’: Permission denied
+find: ‘/backup/sstella1’: Permission denied
+find: ‘/backup/dtu1’: Permission denied
+find: ‘/backup/stapkee1’: Permission denied
+find: ‘/backup/sthorat2’: Permission denied
+find: ‘/backup/sthorat3’: Permission denied
+find: ‘/backup/tbrentar’: Permission denied
+find: ‘/backup/tkondap1’: Permission denied
+find: ‘/backup/trecupe1’: Permission denied
+find: ‘/backup/tvakkal1’: Permission denied
+find: ‘/backup/vbakshi1’: Permission denied
+find: ‘/backup/xdeng7’: Permission denied
+find: ‘/backup/yshinga1’: Permission denied
+find: ‘/backup/elancer1’: Permission denied
+find: ‘/backup/kzeller1’: Permission denied
+find: ‘/backup/sveliya1’: Permission denied
+find: ‘/backup/eadler1’: Permission denied
+find: ‘/backup/eaktas’: Permission denied
+find: ‘/backup/ytang43’: Permission denied
+find: ‘/backup/falmato1’: Permission denied
+find: ‘/backup/mchae1’: Permission denied
+find: ‘/backup/tbrown57’: Permission denied
+find: ‘/backup/edede1’: Permission denied
+find: ‘/backup/jliptak1’: Permission denied
+find: ‘/backup/nayan1’: Permission denied
+find: ‘/backup/thur1’: Permission denied
+find: ‘/backup/eglafck1’: Permission denied
+find: ‘/backup/mdamiat1’: Permission denied
+find: ‘/backup/tkapadi1’: Permission denied
+find: ‘/backup/ehab’: Permission denied
+find: ‘/backup/ehaddad1’: Permission denied
+find: ‘/backup/yxu133’: Permission denied
+find: ‘/backup/fzhang27’: Permission denied
+find: ‘/backup/mfoster7’: Permission denied
+find: ‘/backup/tkatz1’: Permission denied
+find: ‘/backup/ekonev1’: Permission denied
+find: ‘/backup/jliu212’: Permission denied
+find: ‘/backup/ndagost1’: Permission denied
+find: ‘/backup/tman1’: Permission denied
+find: ‘/backup/emattison’: Permission denied
+find: ‘/backup/mmille60’: Permission denied
+find: ‘/backup/tloja1’: Permission denied
+find: ‘/backup/emergepl’: Permission denied
+find: ‘/backup/emstar’: Permission denied
+find: ‘/backup/ndedios1’: Permission denied
+find: ‘/backup/yhu92’: Permission denied
+find: ‘/backup/engage’: Permission denied
+find: ‘/backup/engelen’: Permission denied
+find: ‘/backup/xzhan244’: Permission denied
+find: ‘/backup/lalsunn1’: Permission denied
+find: ‘/backup/jschwel1’: Permission denied
+find: ‘/backup/nruizto1’: Permission denied
+find: ‘/backup/zqiu4’: Permission denied
+find: ‘/backup/erdil’: Permission denied
+find: ‘/backup/wcornej1’: Permission denied
+find: ‘/backup/esabbah’: Permission denied
+find: ‘/backup/mmuffol1’: Permission denied
+find: ‘/backup/ydaggup1’: Permission denied
+find: ‘/backup/esteflik’: Permission denied
+find: ‘/backup/mnorton1’: Permission denied
+find: ‘/backup/ylin145’: Permission denied
+find: ‘/backup/etilden’: Permission denied
+find: ‘/backup/hmanda1’: Permission denied
+find: ‘/backup/molavar1’: Permission denied
+find: ‘/backup/ysun59’: Permission denied
+find: ‘/backup/eway1’: Permission denied
+find: ‘/backup/vbeauge1’: Permission denied
+find: ‘/backup/xguo38’: Permission denied
+find: ‘/backup/zkabari1’: Permission denied
+find: ‘/backup/hpham3’: Permission denied
+find: ‘/backup/mshah38’: Permission denied
+find: ‘/backup/ytao15’: Permission denied
+find: ‘/backup/faculty’: Permission denied
+find: ‘/backup/facweb’: Permission denied
+find: ‘/backup/fafram1’: Permission denied
+find: ‘/backup/fahlbusc’: Permission denied
+find: ‘/backup/falgaha1’: Permission denied
+find: ‘/backup/aashraf1’: Permission denied
+find: ‘/backup/faris’: Permission denied
+find: ‘/backup/farnold’: Permission denied
+find: ‘/backup/nshea1’: Permission denied
+find: ‘/backup/zwen7’: Permission denied
+find: ‘/backup/fcswift’: Permission denied
+find: ‘/backup/twellin1’: Permission denied
+find: ‘/backup/vdevara2’: Permission denied
+find: ‘/backup/xliang24’: Permission denied
+find: ‘/backup/zli191’: Permission denied
+find: ‘/backup/hstein6’: Permission denied
+find: ‘/backup/mspano2’: Permission denied
+find: ‘/backup/adelcas1’: Permission denied
+find: ‘/backup/fmri’: Permission denied
+find: ‘/backup/foreman’: Permission denied
+find: ‘/backup/forweb’: Permission denied
+find: ‘/backup/ychandi1’: Permission denied
+find: ‘/backup/hoeppner’: Permission denied
+find: ‘/backup/jstanle2’: Permission denied
+find: ‘/backup/pdonnel1’: Permission denied
+find: ‘/backup/ccui7’: Permission denied
+find: ‘/backup/fzhu’: Permission denied
+find: ‘/backup/gadu’: Permission denied
+find: ‘/backup/gaic’: Permission denied
+find: ‘/backup/dschust2’: Permission denied
+find: ‘/backup/gaming’: Permission denied
+find: ‘/backup/gao’: Permission denied
+find: ‘/backup/garrison’: Permission denied
+find: ‘/backup/gbiyani1’: Permission denied
+find: ‘/backup/dtierne2’: Permission denied
+find: ‘/backup/gcrl’: Permission denied
+find: ‘/backup/geert’: Permission denied
+find: ‘/backup/titzhak1’: Permission denied
+find: ‘/backup/achhabr1’: Permission denied
+find: ‘/backup/aoztezc1’: Permission denied
+find: ‘/backup/bliew1’: Permission denied
+find: ‘/backup/ebasan1’: Permission denied
+find: ‘/backup/ghose’: Permission denied
+find: ‘/backup/ebenz1’: Permission denied
+find: ‘/backup/gkumar1’: Permission denied
+find: ‘/backup/ecetine2’: Permission denied
+find: ‘/backup/globus’: Permission denied
+find: ‘/backup/bsadhna1’: Permission denied
+find: ‘/backup/ecoolid1’: Permission denied
+find: ‘/backup/gmyers’: Permission denied
+find: ‘/backup/grad’: Permission denied
+find: ‘/backup/efergus3’: Permission denied
+find: ‘/backup/grajpal’: Permission denied
+find: ‘/backup/grase’: Permission denied
+find: ‘/backup/eisikte1’: Permission denied
+find: ‘/backup/grid’: Permission denied
+find: ‘/backup/gridex’: Permission denied
+find: ‘/backup/gridweb’: Permission denied
+find: ‘/backup/bsweet2’: Permission denied
+find: ‘/backup/ejang1’: Permission denied
+find: ‘/backup/gsivana1’: Permission denied
+find: ‘/backup/elurye1’: Permission denied
+find: ‘/backup/gsoweb’: Permission denied
+find: ‘/backup/gstodda1’: Permission denied
+find: ‘/backup/cbrugna1’: Permission denied
+find: ‘/backup/eserdar1’: Permission denied
+find: ‘/backup/gurhan’: Permission denied
+find: ‘/backup/guydosh’: Permission denied
+find: ‘/backup/eshapir9’: Permission denied
+find: ‘/backup/gvenkat’: Permission denied
+find: ‘/backup/cchoi20’: Permission denied
+find: ‘/backup/estern7’: Permission denied
+find: ‘/backup/gwilber1’: Permission denied
+find: ‘/backup/ajain35’: Permission denied
+find: ‘/backup/bchen114’: Permission denied
+find: ‘/backup/ddoddag1’: Permission denied
+find: ‘/backup/ddas1’: Permission denied
+find: ‘/backup/haygan1’: Permission denied
+find: ‘/backup/dpetzol2’: Permission denied
+find: ‘/backup/cs441-test’: Permission denied
+find: ‘/backup/achotal1’: Permission denied
+find: ‘/backup/aputnal1’: Permission denied
+find: ‘/backup/cdimegl1’: Permission denied
+find: ‘/backup/fantona1’: Permission denied
+find: ‘/backup/hdesai1’: Permission denied
+find: ‘/backup/head’: Permission denied
+find: ‘/backup/acurrer1’: Permission denied
+find: ‘/backup/arizzo10’: Permission denied
+find: ‘/backup/cherna19’: Permission denied
+find: ‘/backup/femmanu1’: Permission denied
+find: ‘/backup/himanshu’: Permission denied
+find: ‘/backup/hiren’: Permission denied
+find: ‘/backup/hkang’: Permission denied
+find: ‘/backup/fsarika1’: Permission denied
+find: ‘/backup/hkaradi1’: Permission denied
+find: ‘/backup/hkilic2’: Permission denied
+find: ‘/backup/hkulkar1’: Permission denied
+find: ‘/backup/imarkic1’: Permission denied
+find: ‘/backup/achaudh9’: Permission denied
+find: ‘/backup/akunz3’: Permission denied
+find: ‘/backup/bestus1’: Permission denied
+find: ‘/backup/dmacejk1’: Permission denied
+find: ‘/backup/hparmar1’: Permission denied
+find: ‘/backup/hribic1’: Permission denied
+find: ‘/backup/ciriart1’: Permission denied
+find: ‘/backup/dkunkel’: Permission denied
+find: ‘/backup/abloodg1’: Permission denied
+find: ‘/backup/akaleli1’: Permission denied
+find: ‘/backup/bchoudh4’: Permission denied
+find: ‘/backup/dgouvou1’: Permission denied
+find: ‘/backup/dfan2’: Permission denied
+find: ‘/backup/hsuthapa’: Permission denied
+find: ‘/backup/hzeng’: Permission denied
+find: ‘/backup/hzhu1’: Permission denied
+find: ‘/backup/hzou1’: Permission denied
+find: ‘/backup/alongo5’: Permission denied
+find: ‘/backup/aricci5’: Permission denied
+find: ‘/backup/bdelane1’: Permission denied
+find: ‘/backup/robotics’: Permission denied
+find: ‘/backup/aashok1’: Permission denied
+find: ‘/backup/adhruv1’: Permission denied
+find: ‘/backup/asawant2’: Permission denied
+find: ‘/backup/cjenkin1’: Permission denied
+find: ‘/backup/hmulla1’: Permission denied
+find: ‘/backup/iliano’: Permission denied
+find: ‘/backup/hpacher1’: Permission denied
+find: ‘/backup/imran’: Permission denied
+find: ‘/backup/indangered’: Permission denied
+find: ‘/backup/intrieri’: Permission denied
+find: ‘/backup/cjoaqui1’: Permission denied
+find: ‘/backup/hxiao4’: Permission denied
+find: ‘/backup/ivdgl’: Permission denied
+find: ‘/backup/iwobi’: Permission denied
+find: ‘/backup/aceylan1’: Permission denied
+find: ‘/backup/akancha1’: Permission denied
+find: ‘/backup/bcohada1’: Permission denied
+find: ‘/backup/dli114’: Permission denied
+find: ‘/backup/jdua1’: Permission denied
+find: ‘/backup/janders1’: Permission denied
+find: ‘/backup/bdevrie1’: Permission denied
+find: ‘/backup/jditkof1’: Permission denied
+find: ‘/backup/aanveka2’: Permission denied
+find: ‘/backup/adogana1’: Permission denied
+find: ‘/backup/asawwal1’: Permission denied
+find: ‘/backup/ckshirs1’: Permission denied
+find: ‘/backup/ids-web’: Permission denied
+find: ‘/backup/jbednasz’: Permission denied
+find: ‘/backup/agonza70’: Permission denied
+find: ‘/backup/akapur4’: Permission denied
+find: ‘/backup/amccart9’: Permission denied
+find: ‘/backup/asirota3’: Permission denied
+find: ‘/backup/bmarti38’: Permission denied
+find: ‘/backup/lperlow1’: Permission denied
+find: ‘/backup/abhagwa1’: Permission denied
+find: ‘/backup/aeghbal1’: Permission denied
+find: ‘/backup/aservet1’: Permission denied
+find: ‘/backup/ckulkar2’: Permission denied
+find: ‘/backup/jarora2’: Permission denied
+find: ‘/backup/jcheria1’: Permission denied
+find: ‘/backup/afelsen3’: Permission denied
+find: ‘/backup/aferrei3’: Permission denied
+find: ‘/backup/agermos1’: Permission denied
+find: ‘/backup/aheffer1’: Permission denied
+find: ‘/backup/alee884’: Permission denied
+find: ‘/backup/amcmanu4’: Permission denied
+find: ‘/backup/awaring1’: Permission denied
+find: ‘/backup/ccipp1’: Permission denied
+find: ‘/backup/chouck’: Permission denied
+find: ‘/backup/abixby1’: Permission denied
+find: ‘/backup/agoetz3’: Permission denied
+find: ‘/backup/asing134’: Permission denied
+find: ‘/backup/clindsa1’: Permission denied
+find: ‘/backup/jbabbit1’: Permission denied
+find: ‘/backup/jelwell1’: Permission denied
+find: ‘/backup/dallen9’: Permission denied
+find: ‘/backup/mallingt’: Permission denied
+find: ‘/backup/achaud12’: Permission denied
+find: ‘/backup/akayhan1’: Permission denied
+find: ‘/backup/bdeore1’: Permission denied
+find: ‘/backup/dlockye1’: Permission denied
+find: ‘/backup/kyi3’: Permission denied
+find: ‘/backup/jgallia1’: Permission denied
+find: ‘/backup/agrace2’: Permission denied
+find: ‘/backup/awalley1’: Permission denied
+find: ‘/backup/cliu118’: Permission denied
+find: ‘/backup/jbarkov1’: Permission denied
+find: ‘/backup/jglafck1’: Permission denied
+find: ‘/backup/jeipp1’: Permission denied
+find: ‘/backup/jgrode1’: Permission denied
+find: ‘/backup/agross22’: Permission denied
+find: ‘/backup/awilso16’: Permission denied
+find: ‘/backup/ctran20’: Permission denied
+find: ‘/backup/jfeinla1’: Permission denied
+find: ‘/backup/jhartog1’: Permission denied
+find: ‘/backup/cyang58’: Permission denied
+find: ‘/backup/jhaller1’: Permission denied
+find: ‘/backup/jhicks’: Permission denied
+find: ‘/backup/ahoriha1’: Permission denied
+find: ‘/backup/bchadha1’: Permission denied
+find: ‘/backup/dcordei1’: Permission denied
+find: ‘/backup/jhertik1’: Permission denied
+find: ‘/backup/jholla’: Permission denied
+find: ‘/backup/amishr11’: Permission denied
+find: ‘/backup/bizar1’: Permission denied
+find: ‘/backup/dreyes12’: Permission denied
+find: ‘/backup/jrodr151’: Permission denied
+find: ‘/backup/jsutton3’: Permission denied
+find: ‘/backup/jyoo45’: Permission denied
+find: ‘/backup/kferna11’: Permission denied
+find: ‘/backup/ksawant1’: Permission denied
+find: ‘/backup/marsene1’: Permission denied
+find: ‘/backup/mmurray8’: Permission denied
+find: ‘/backup/nburzyn1’: Permission denied
+find: ‘/backup/nrogosz1’: Permission denied
+find: ‘/backup/preddyl1’: Permission denied
+find: ‘/backup/scogay1’: Permission denied
+find: ‘/backup/svishwa2’: Permission denied
+find: ‘/backup/test5’: Permission denied
+find: ‘/backup/jlai’: Permission denied
+find: ‘/backup/kdeshpa5’: Permission denied
+find: ‘/backup/khirana1’: Permission denied
+find: ‘/backup/kwill113’: Permission denied
+find: ‘/backup/mcetin3’: Permission denied
+find: ‘/backup/mparlaw1’: Permission denied
+find: ‘/backup/ngawade1’: Permission denied
+find: ‘/backup/ocummin1’: Permission denied
+find: ‘/backup/pwalke1’: Permission denied
+find: ‘/backup/sdias1’: Permission denied
+find: ‘/backup/syudhoa1’: Permission denied
+find: ‘/backup/jloew’: Permission denied
+find: ‘/backup/kdublin1’: Permission denied
+find: ‘/backup/khsieh3’: Permission denied
+find: ‘/backup/lkollur1’: Permission denied
+find: ‘/backup/mfoley9’: Permission denied
+find: ‘/backup/mruffne1’: Permission denied
+find: ‘/backup/nkommur1’: Permission denied
+find: ‘/backup/okulkar4’: Permission denied
+find: ‘/backup/rbadada1’: Permission denied
+find: ‘/backup/sforker1’: Permission denied
+find: ‘/backup/talon1’: Permission denied
+find: ‘/backup/jmessin2’: Permission denied
+find: ‘/backup/rfujita1’: Permission denied
+find: ‘/backup/siftekh1’: Permission denied
+find: ‘/backup/tgilber5’: Permission denied
+find: ‘/backup/jmoore’: Permission denied
+find: ‘/backup/tgisi1’: Permission denied
+find: ‘/backup/jnarayan’: Permission denied
+find: ‘/backup/rgeary1’: Permission denied
+find: ‘/backup/skolhap1’: Permission denied
+find: ‘/backup/tgrusze1’: Permission denied
+find: ‘/backup/joh’: Permission denied
+find: ‘/backup/tmarder1’: Permission denied
+find: ‘/backup/jparkar’: Permission denied
+find: ‘/backup/munsal1’: Permission denied
+find: ‘/backup/npatel62’: Permission denied
+find: ‘/backup/omavitu1’: Permission denied
+find: ‘/backup/rkaur21’: Permission denied
+find: ‘/backup/smanne1’: Permission denied
+find: ‘/backup/tquiles1’: Permission denied
+find: ‘/backup/jqiu’: Permission denied
+find: ‘/backup/kmanriq1’: Permission denied
+find: ‘/backup/ltaveir1’: Permission denied
+find: ‘/backup/mjiang39’: Permission denied
+find: ‘/backup/mvani1’: Permission denied
+find: ‘/backup/npatel64’: Permission denied
+find: ‘/backup/pdeshpa2’: Permission denied
+find: ‘/backup/rkulka22’: Permission denied
+find: ‘/backup/smestry1’: Permission denied
+find: ‘/backup/tunsel1’: Permission denied
+find: ‘/backup/jrosswog’: Permission denied
+find: ‘/backup/pdeshpa3’: Permission denied
+find: ‘/backup/rmeliti1’: Permission denied
+find: ‘/backup/smorram1’: Permission denied
+find: ‘/backup/twilli81’: Permission denied
+find: ‘/backup/jryder’: Permission denied
+find: ‘/backup/pfeng1’: Permission denied
+find: ‘/backup/rmusale1’: Permission denied
+find: ‘/backup/smukka1’: Permission denied
+find: ‘/backup/ukayaal1’: Permission denied
+find: ‘/backup/jschmid2’: Permission denied
+find: ‘/backup/jschmit2’: Permission denied
+find: ‘/backup/soshay1’: Permission denied
+find: ‘/backup/vbhosal1’: Permission denied
+find: ‘/backup/jsharke’: Permission denied
+find: ‘/backup/vtran6’: Permission denied
+find: ‘/backup/jsilvela’: Permission denied
+find: ‘/backup/jsimone1’: Permission denied
+find: ‘/backup/jskovro1’: Permission denied
+find: ‘/backup/mkhoman1’: Permission denied
+find: ‘/backup/myan28’: Permission denied
+find: ‘/backup/npoda1’: Permission denied
+find: ‘/backup/pkarthi1’: Permission denied
+find: ‘/backup/rpokhar1’: Permission denied
+find: ‘/backup/sozdemi2’: Permission denied
+find: ‘/backup/wleng1’: Permission denied
+find: ‘/backup/jsteinberg’: Permission denied
+find: ‘/backup/jsweeny1’: Permission denied
+find: ‘/backup/jli452’: Permission denied
+find: ‘/backup/jli461’: Permission denied
+find: ‘/backup/jmcmah10’: Permission denied
+find: ‘/backup/jmeguir1’: Permission denied
+find: ‘/backup/jseiber1’: Permission denied
+find: ‘/backup/jvail1’: Permission denied
+find: ‘/backup/kchings1’: Permission denied
+find: ‘/backup/kgaffne1’: Permission denied
+find: ‘/backup/kvartak2’: Permission denied
+find: ‘/backup/maziz3’: Permission denied
+find: ‘/backup/mparker4’: Permission denied
+find: ‘/backup/ncorvi1’: Permission denied
+find: ‘/backup/oalamut1’: Permission denied
+find: ‘/backup/psammon1’: Permission denied
+find: ‘/backup/sdesai13’: Permission denied
+find: ‘/backup/swang206’: Permission denied
+find: ‘/backup/jwang36’: Permission denied
+find: ‘/backup/rsaptar2’: Permission denied
+find: ‘/backup/sozden1’: Permission denied
+find: ‘/backup/xchen269’: Permission denied
+find: ‘/backup/jwetzel1’: Permission denied
+find: ‘/backup/plonkar1’: Permission denied
+find: ‘/backup/rsaraf1’: Permission denied
+find: ‘/backup/spalshe1’: Permission denied
+find: ‘/backup/xluo22’: Permission denied
+find: ‘/backup/jwolter1’: Permission denied
+find: ‘/backup/sparra2’: Permission denied
+find: ‘/backup/yguo71’: Permission denied
+find: ‘/backup/jwu6’: Permission denied
+find: ‘/backup/jyao’: Permission denied
+find: ‘/backup/yli418’: Permission denied
+find: ‘/backup/jzhang’: Permission denied
+find: ‘/backup/rshendl1’: Permission denied
+find: ‘/backup/sparuch1’: Permission denied
+find: ‘/backup/yliu401’: Permission denied
+find: ‘/backup/kamarij’: Permission denied
+find: ‘/backup/kang’: Permission denied
+find: ‘/backup/kartik’: Permission denied
+find: ‘/backup/kaushik’: Permission denied
+find: ‘/backup/ysaglam1’: Permission denied
+find: ‘/backup/kbahulkar’: Permission denied
+find: ‘/backup/mmillar3’: Permission denied
+find: ‘/backup/nananth1’: Permission denied
+find: ‘/backup/nreisch1’: Permission denied
+find: ‘/backup/ppatil7’: Permission denied
+find: ‘/backup/sagrawa4’: Permission denied
+find: ‘/backup/spatwa1’: Permission denied
+find: ‘/backup/yyang202’: Permission denied
+find: ‘/backup/kchiu’: Permission denied
+find: ‘/backup/levliya1’: Permission denied
+find: ‘/backup/mdang1’: Permission denied
+find: ‘/backup/mpinz1’: Permission denied
+find: ‘/backup/ngupta4’: Permission denied
+find: ‘/backup/okircan1’: Permission denied
+/backup/qxiong1/linux/2019/09-08/Downloads/cstack.c
+/backup/qxiong1/linux/2019/09-08/Past files/cstack.c
+/backup/qxiong1/linux/2019/09-08/Past files/t1.c
+/backup/qxiong1/linux/2019/09-08/Past files/v.c
+/backup/qxiong1/linux/2019/09-08/Past files/x.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/09-08/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/work/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/work/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/09-08/git-repos/i220b/work/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-06/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-06/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-06/Past files/t1.c
+/backup/qxiong1/linux/2019/10-06/Past files/v.c
+/backup/qxiong1/linux/2019/10-06/Past files/x.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/move/move.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/simple/simple.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/sum1/sum1.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/fact.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/mul.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/multi-dim.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/no-frame.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/rect-array.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/rect.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/swap.c
+/backup/qxiong1/linux/2019/10-06/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-06/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/move/move.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/simple/simple.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/sum1/sum1.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/fact.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/mul.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/multi-dim.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/no-frame.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/rect-array.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/rect.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/swap.c
+/backup/qxiong1/linux/2019/10-15/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-15/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-15/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-15/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-15/Past files/t1.c
+/backup/qxiong1/linux/2019/10-15/Past files/v.c
+/backup/qxiong1/linux/2019/10-15/Past files/x.c
+/backup/qxiong1/linux/2019/10-17/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-17/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-17/Past files/t1.c
+/backup/qxiong1/linux/2019/10-17/Past files/v.c
+/backup/qxiong1/linux/2019/10-17/Past files/x.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/move/move.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/simple/simple.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/sum1/sum1.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/fact.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/mul.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/multi-dim.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/no-frame.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/rect-array.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/rect.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/swap.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-17/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-17/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-20/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-20/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-20/Past files/t1.c
+/backup/qxiong1/linux/2019/10-20/Past files/v.c
+/backup/qxiong1/linux/2019/10-20/Past files/x.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/move/move.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/simple/simple.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/sum1/sum1.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/fact.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/mul.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/multi-dim.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/no-frame.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/rect-array.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/rect.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/swap.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-20/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-20/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-23/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-23/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-23/Past files/t1.c
+/backup/qxiong1/linux/2019/10-23/Past files/v.c
+/backup/qxiong1/linux/2019/10-23/Past files/x.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/simple/simple.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/sum1/sum1.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/fact.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/mul.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/multi-dim.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/no-frame.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/rect-array.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/rect.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/swap.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-23/git-repos/cs220/slides/x86/code/move/move.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-23/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-26/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-26/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-26/Past files/t1.c
+/backup/qxiong1/linux/2019/10-26/Past files/v.c
+/backup/qxiong1/linux/2019/10-26/Past files/x.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/lab10/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/lab10/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/lab10/parity/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/lab10/rip/rip.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/lab10/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/lab10/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/exercises/questions/src/x86/fns-asm.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab9/files/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab10/files/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab10/files/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab10/files/parity/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab10/files/rip/rip.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab10/files/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/labs/lab10/files/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2-sol/alt-big-bits.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/acc-fact.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/array-access.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/move.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/point3.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/read-point.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/rec-fact.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/scale.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/structs.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/sum-dist-origin-s.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/sum-dist-origin.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/vframe.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-26/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/exercises/questions/src/x86/fns-asm.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab10/files/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab10/files/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab10/files/parity/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab10/files/rip/rip.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab10/files/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab10/files/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/labs/lab9/files/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2-sol/alt-big-bits.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/acc-fact.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/array-access.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/move.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/point3.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/read-point.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/rec-fact.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/scale.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/structs.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/sum-dist-origin-s.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/sum-dist-origin.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/vframe.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-27/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/lab10/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/lab10/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/lab10/parity/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/lab10/rip/rip.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/lab10/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/lab10/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-27/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-27/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-27/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-27/Past files/t1.c
+/backup/qxiong1/linux/2019/10-27/Past files/v.c
+/backup/qxiong1/linux/2019/10-27/Past files/x.c
+/backup/qxiong1/linux/2019/10-29/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-29/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-29/Past files/t1.c
+/backup/qxiong1/linux/2019/10-29/Past files/v.c
+/backup/qxiong1/linux/2019/10-29/Past files/x.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/bomb78/bomb.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/lab10/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/lab10/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/lab10/parity/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/lab10/rip/rip.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/lab10/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/lab10/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/exercises/questions/src/x86/fns-asm.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab9/files/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab10/files/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab10/files/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab10/files/parity/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab10/files/rip/rip.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab10/files/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/labs/lab10/files/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2-sol/alt-big-bits.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/acc-fact.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/array-access.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/move.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/point3.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/read-point.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/rec-fact.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/scale.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/structs.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/sum-dist-origin-s.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/sum-dist-origin.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/vframe.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-29/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/exercises/questions/src/x86/fns-asm.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab10/files/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab10/files/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab10/files/parity/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab10/files/rip/rip.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab10/files/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab10/files/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/labs/lab9/files/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2-sol/alt-big-bits.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/acc-fact.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/array-access.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/move.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/point3.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/read-point.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/rec-fact.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/scale.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/structs.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/sum-dist-origin-s.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/sum-dist-origin.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/vframe.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-30/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/bomb78/bomb.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/lab10/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/lab10/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/lab10/parity/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/lab10/rip/rip.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/lab10/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/lab10/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-30/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-30/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-30/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-30/Past files/t1.c
+/backup/qxiong1/linux/2019/10-30/Past files/v.c
+/backup/qxiong1/linux/2019/10-30/Past files/x.c
+/backup/qxiong1/linux/2019/10-31/Downloads/cstack.c
+/backup/qxiong1/linux/2019/10-31/Past files/cstack.c
+/backup/qxiong1/linux/2019/10-31/Past files/t1.c
+/backup/qxiong1/linux/2019/10-31/Past files/v.c
+/backup/qxiong1/linux/2019/10-31/Past files/x.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/bomb78/bomb.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/lab10/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/lab10/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/lab10/parity/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/lab10/rip/rip.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/lab10/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/lab10/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/exercises/questions/src/x86/fns-asm.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab9/files/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab10/files/cpuid1/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab10/files/cpuid2/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab10/files/parity/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab10/files/rip/rip.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab10/files/rotate/rotate.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/labs/lab10/files/rsp/rsp.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2-sol/alt-big-bits.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/acc-fact.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/array-access.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/move.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/point3.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/read-point.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/rec-fact.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/scale.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/structs.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/sum-dist-origin-s.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/sum-dist-origin.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/vframe.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/10-31/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/11-01/Downloads/cstack.c
+/backup/qxiong1/linux/2019/11-01/Past files/cstack.c
+/backup/qxiong1/linux/2019/11-01/Past files/t1.c
+/backup/qxiong1/linux/2019/11-01/Past files/v.c
+/backup/qxiong1/linux/2019/11-01/Past files/x.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/exercises/questions/src/x86/fns-asm.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab9/files/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab10/files/cpuid1/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab10/files/cpuid2/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab10/files/parity/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab10/files/rip/rip.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab10/files/rotate/rotate.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab10/files/rsp/rsp.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/coverage/coverage.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/int-search/binary-search.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/int-search/int_compare.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/int-search/linear-search.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/int-search/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/parity/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/parity/parity-c.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/labs/lab11/files/parity/parity-s.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/misc/shapes/cs220a/shapes.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/misc/shapes/cs220b/shapes.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2-sol/alt-big-bits.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2-sol/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/projects/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/double-decode.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/enum-strings.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/oo-shapes/circle.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/oo-shapes/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/oo-shapes/rect.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/oo-shapes/shape.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/stack/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/advanced-c/code/stack/stack.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/acc-fact.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/array-access.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/move.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/point3.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/read-point.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/rec-fact.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/scale.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/structs.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/sum-dist-origin-s.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/sum-dist-origin.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/vframe.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/11-01/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/coverage/coverage.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/int-search/binary-search.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/int-search/int_compare.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/int-search/linear-search.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/int-search/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/parity/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/parity/parity-c.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab11/parity/parity-s.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/bomb78/bomb.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/lab10/cpuid1/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/lab10/cpuid2/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/lab10/parity/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/lab10/rip/rip.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/lab10/rotate/rotate.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/lab10/rsp/rsp.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/prj2-sol/main.c
+/backup/qxiong1/linux/2019/11-01/git-repos/i220b/work/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/11-02/Downloads/cstack.c
+/backup/qxiong1/linux/2019/11-02/Past files/cstack.c
+/backup/qxiong1/linux/2019/11-02/Past files/t1.c
+/backup/qxiong1/linux/2019/11-02/Past files/v.c
+/backup/qxiong1/linux/2019/11-02/Past files/x.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/exercises/questions/src/x86/fns-asm.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab10/files/cpuid1/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab10/files/cpuid2/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab10/files/parity/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab10/files/rip/rip.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab10/files/rotate/rotate.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab10/files/rsp/rsp.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/int-search/binary-search.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/int-search/int_compare.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/int-search/linear-search.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/int-search/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/parity/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/parity/parity-c.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/parity/parity-s.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab11/files/coverage/coverage.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab2/files/ex1/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab2/files/ex3/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab2/files/ex3/quadr.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab2/files/ex4/key-value.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab2/files/ex4/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab2/files/ex4/process-file.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab5/files/ex1/pointers.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab5/files/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab5/files/ex3/bad-types.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab5/files/ex4/cast-types.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab5/files/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab5/files/ex6/in-voids.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab8/files/hello-multi.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab8/files/hello-one.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/labs/lab9/files/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/misc/shapes/cs220a/shapes.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/misc/shapes/cs220b/shapes.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/misc/bin-num/220a/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/misc/bin-num/220a/bin-num.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/misc/bin-num/220b/bin-num.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/misc/bin-num/220b/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj1-sol/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj1/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj1/prj1-sol/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj1/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2-sol/alt-big-bits.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2-sol/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2/prj2-sol/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/projects/prj2/prj2-sol/stack.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/adts/code/stack.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/oo-shapes/circle.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/oo-shapes/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/oo-shapes/rect.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/oo-shapes/shape.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/stack/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/stack/stack.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/double-decode.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/advanced-c/code/enum-strings.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/integer-sizes.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/kilo-powers.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/ptr-sum.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/robust-sum.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/sum-args.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/count-1s-1.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/count-1s-2.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/endian.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/wc.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/bases.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/out-bits.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/c-intro/code/sum.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/intro/code/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/acc-fact.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/mstore/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/mstore/mstore.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/abs-diff.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/array-access.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/cmp-sets.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/fact-do-while.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/fact-while.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/indirect-goto.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/move.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/point3.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/read-point.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/rec-fact.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/scale.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/stack-frame.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/structs.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/sum-dist-origin-s.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/sum-dist-origin.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/sum.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/switch.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/vframe.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/arith.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/conditional-move.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/div-mod.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/dynamic-array.c
+/backup/qxiong1/linux/2019/11-02/git-repos/cs220/slides/x86/code/find.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b.bak/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b.bak/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b.bak/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b.bak/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b.bak/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b.bak/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex1/uints.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex2/ints.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex3/identify.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex4/negeq.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex6/0.1.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex7/nan.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex8/ulp.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab4/ex9/loop.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab5/ex3/bad-types.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab5/ex4/cast-types.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab5/ex5/void-pointers.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab5/ex6/in-voids.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab5/ex1/pointers.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab5/ex2/in-pointers.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab6/brk/brk.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab6/bug-program/bug-program.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab6/process-memory/process-memory.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/libgeom/circ.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/libgeom/rect.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/libgeom/testgeom.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/libvec/addvec.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/libvec/multvec.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/libvec/testvec.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/log10/log10.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/multiple-defs/f.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/multiple-defs/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/multiple-symbols/def1.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/multiple-symbols/def2.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/multiple-symbols/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab7/static-dynamic/log10.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab8/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/prj1-sol/bits-to-ints.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/prj1-sol/errors.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/prj1-sol/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/coverage/coverage.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/int-search/binary-search.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/int-search/int_compare.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/int-search/linear-search.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/int-search/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/parity/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/parity/parity-c.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab11/parity/parity-s.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab2/ex1/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab2/ex3/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab2/ex3/quadr.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab2/ex4/key-value.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab2/ex4/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab2/ex4/process-file.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab3/files/ex1/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/submit/lab3/files/ex2/hello.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/bomb78/bomb.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/lab10/cpuid1/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/lab10/cpuid2/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/lab10/parity/main.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/lab10/rip/rip.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/lab10/rotate/rotate.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/lab10/rsp/rsp.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/prj2-sol/big-bits.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/prj2-sol/errors.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/prj2-sol/hex-util.c
+/backup/qxiong1/linux/2019/11-02/git-repos/i220b/work/prj2-sol/main.
